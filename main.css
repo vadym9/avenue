@@ -1,3 +1,4 @@
+@charset "UTF-8";
 header .container {
   height: 100vh;
 }
@@ -85,6 +86,36 @@ header .content .description {
   color: #ffffff;
 }
 
+@font-face {
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot?lfyq3x");
+  src: url("fonts/icomoon.eot?lfyq3x#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?lfyq3x") format("truetype"), url("fonts/icomoon.woff?lfyq3x") format("woff"), url("fonts/icomoon.svg?lfyq3x#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^=icon-], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-user:before {
+  content: "";
+}
+
+.icon-cheveron-right:before {
+  content: "";
+}
+
 .white-button {
   width: 258px;
   height: 60px;
@@ -112,12 +143,11 @@ header .content .description {
   opacity: 0.3;
   border-radius: 10px;
   border: solid 1px #ffffff;
+  color: white;
 }
 
 .clear-button-text {
-  width: 46px;
   height: 24px;
-  font-family: CenturyGothic;
   font-size: 14px;
   font-weight: bold;
   font-stretch: normal;
@@ -125,7 +155,7 @@ header .content .description {
   line-height: 1.71;
   letter-spacing: 0.2px;
   text-align: right;
-  color: #ffffff;
+  color: white;
 }
 
 /*# sourceMappingURL=main.css.map */
