@@ -1,0 +1,132 @@
+@use '_header';
+// @mixin themable($theme-name, $container-bg, $left-bg){
+//     .#{$theme-name}{
+//         .container{
+//             background-color: $container-bg; 
+//             border:1px solid green;
+
+//         }
+//     }
+
+//     // @each $section, $map in $theme-map
+// }
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?lfyq3x');
+    src:  url('fonts/icomoon.eot?lfyq3x#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?lfyq3x') format('truetype'),
+      url('fonts/icomoon.woff?lfyq3x') format('woff'),
+      url('fonts/icomoon.svg?lfyq3x#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .icon-user:before {
+    content: "\e901";
+  }
+
+  .icon-cheveron-right:before {
+    content: "\e900";
+  }
+
+.white-button{
+    width: 258px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: none;
+    
+}
+.button-text{
+    position:relative;
+
+    width: 175px;
+  height: 24px;
+  font-family: CenturyGothic;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  color: #1a3cfa;
+
+  &:after{
+    content: '\e900';
+    position: absolute;
+    font-family: icomoon;
+    font-size: 20px;
+    right: -25px;
+    top:50%;
+    transform: translateY(-50%)
+  }
+}
+
+.clear-button{
+  width: 120px;
+  height: 50px;
+  background:none;
+  border-radius: 10px;
+  border: solid 1px #ffffff;
+//   color:white;
+    color: #ffffff;
+    
+}
+
+.clear-button-text{
+    position:relative;
+    height: 24px;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.2px;
+    text-align: right;
+    // color: white;
+    &:before{
+        content: '\e901';
+        position: absolute;
+        font-family: icomoon;
+        font-size: 14px;
+        left: -20px;
+        top:50%;
+        transform: translateY(-50%);
+    }
+}
+// @include themable(theme-1,#f7eb80, red)
+
+// ------------- need help--
+
+// $theme-1: (
+//     container:(
+//         color:red
+//     ),
+//    left: (
+//        bg: #d88880,
+//        color: #fff,
+//        height: 100%,
+//        width: 69%
+//    ),
+// );
+
+// @each $section, $map in $theme-1
+// ----------------------
