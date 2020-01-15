@@ -13,10 +13,48 @@
 
 
 
+.white-button{
+    width: 258px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: none;
+    
+}
+.button-text{
+    width: 175px;
+  height: 24px;
+  font-family: CenturyGothic;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  color: #1a3cfa;
+}
 
+.clear-button{
+  width: 120px;
+  height: 50px;
+  opacity: 0.3;
+  border-radius: 10px;
+  border: solid 1px #ffffff;
+}
 
-
-
+.clear-button-text{
+    width: 46px;
+    height: 24px;
+    font-family: CenturyGothic;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.2px;
+    text-align: right;
+    color: #ffffff;
+}
 // @include themable(theme-1,#f7eb80, red)
 
 // ------------- need help--
