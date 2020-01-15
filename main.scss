@@ -1,0 +1,37 @@
+@use '_header';
+// @mixin themable($theme-name, $container-bg, $left-bg){
+//     .#{$theme-name}{
+//         .container{
+//             background-color: $container-bg; 
+//             border:1px solid green;
+
+//         }
+//     }
+
+//     // @each $section, $map in $theme-map
+// }
+
+
+
+
+
+
+
+// @include themable(theme-1,#f7eb80, red)
+
+// ------------- need help--
+
+// $theme-1: (
+//     container:(
+//         color:red
+//     ),
+//    left: (
+//        bg: #d88880,
+//        color: #fff,
+//        height: 100%,
+//        width: 69%
+//    ),
+// );
+
+// @each $section, $map in $theme-1
+// ----------------------
