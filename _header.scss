@@ -80,6 +80,7 @@ header {
 
     .title{
         // border: 1px solid yellow;
+        position: relative;
         font-family: CenturyGothic;
         font-size: 80px;
         font-weight: bold;
@@ -89,6 +90,16 @@ header {
         letter-spacing: 0.2px;
         color: #ffffff;
         margin-top: 69px;
+
+        // &:before {
+        //     content: '\e901';
+        //     position: absolute;
+        //     font-family: icomoon;
+        //     font-size: 14px;
+        //     left: -20px;
+        //     top: 50%;
+        //     transform: translateY(-50%);
+        // }
     }
     
     .description{

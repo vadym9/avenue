@@ -55,6 +55,8 @@
     
 }
 .button-text{
+    position:relative;
+
     width: 175px;
   height: 24px;
   font-family: CenturyGothic;
@@ -65,22 +67,33 @@
   line-height: 1.5;
   letter-spacing: 0.2px;
   color: #1a3cfa;
+
+  &:after{
+    content: '\e900';
+    position: absolute;
+    font-family: icomoon;
+    font-size: 20px;
+    right: -25px;
+    top:50%;
+    transform: translateY(-50%)
+  }
 }
 
 .clear-button{
   width: 120px;
   height: 50px;
-  opacity: 0.3;
+  background:none;
   border-radius: 10px;
   border: solid 1px #ffffff;
-  color:white;
-
+//   color:white;
+    color: #ffffff;
+    
 }
 
 .clear-button-text{
-    
+    position:relative;
     height: 24px;
-   
+    padding-left: 10px;
     font-size: 14px;
     font-weight: bold;
     font-stretch: normal;
@@ -88,7 +101,16 @@
     line-height: 1.71;
     letter-spacing: 0.2px;
     text-align: right;
-    color: white;
+    // color: white;
+    &:before{
+        content: '\e901';
+        position: absolute;
+        font-family: icomoon;
+        font-size: 14px;
+        left: -20px;
+        top:50%;
+        transform: translateY(-50%);
+    }
 }
 // @include themable(theme-1,#f7eb80, red)
 
