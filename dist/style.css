@@ -340,10 +340,14 @@ header .content .description {
 
 .industry-report {
   background-color: #1a3cfa;
-  height: 100px;
+  height: 380px;
 }
 .industry-report .container {
   margin: 0px auto;
+}
+.industry-report .lines {
+  position: absolute;
+  right: 45%;
 }
 
 /*# sourceMappingURL=style.css.map */
