@@ -1,0 +1,32 @@
+.three-columns{
+    justify-content: space-around;
+    margin-top: 80px;
+    
+    
+}
+
+.column{
+    margin: 0px 30px;
+    // width:33,3%;
+    display:flex;
+    flex-direction: column;
+}
+.text-column{
+    // flex:1;
+}
+.img-column{
+    // width:80%;
+    // padding: 0px 5px;
+    // align-self:center;
+    // position: relative;
+}
+
+.title-column{
+    margin-top:80px;
+}
+
+.image{
+    // position: absolute;
+  
+  
+}

@@ -85,6 +85,7 @@
 }
 
 .button-learn-more {
+  background-color: white;
   width: 160px;
   height: 60px;
   margin-top: 40px;
@@ -140,6 +141,14 @@
   border: 1px solid green;
 }
 
+.debug-blue {
+  border: 1px solid blue;
+}
+
+.debug-purple {
+  border: 1px solid purple;
+}
+
 @font-face {
   font-family: "icomoon";
   src: url("fonts/icomoon.eot?lfyq3x");
@@ -170,7 +179,7 @@
   content: "";
 }
 
-.two-columns-text-style {
+.text {
   font-family: Heebo;
   font-size: 18px;
   font-weight: normal;
@@ -191,6 +200,17 @@
   letter-spacing: 0.2px;
   text-align: center;
   color: #2d2d2d;
+}
+
+.title-column {
+  font-family: CenturyGothic;
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: 0.2px;
+  color: #000000;
 }
 
 header {
@@ -301,6 +321,29 @@ header .content .description {
   width: 50%;
   margin-left: 120px;
   margin-top: 28px;
+}
+
+.three-columns {
+  justify-content: space-around;
+  margin-top: 80px;
+}
+
+.column {
+  margin: 0px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-column {
+  margin-top: 80px;
+}
+
+.industry-report {
+  background-color: #1a3cfa;
+  height: 100px;
+}
+.industry-report .container {
+  margin: 0px auto;
 }
 
 /*# sourceMappingURL=style.css.map */

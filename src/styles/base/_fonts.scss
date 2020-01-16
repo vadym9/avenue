@@ -36,7 +36,7 @@ $containerWidth:60%;
     content: "\e900";
   }
 
-.two-columns-text-style{
+.text{
   font-family: Heebo;
   font-size: 18px;
   font-weight: normal;
@@ -59,6 +59,16 @@ $containerWidth:60%;
   color: #2d2d2d;
 }
 
+.title-column{
+  font-family: CenturyGothic;
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
 
 
 // @include themable(theme-1,#f7eb80, red)
