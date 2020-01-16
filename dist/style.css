@@ -181,7 +181,7 @@
   color: #666666;
 }
 
-.two-columns-title-style {
+.title {
   font-family: CenturyGothic;
   font-size: 48px;
   font-weight: bold;
@@ -253,7 +253,7 @@ header .content .button-block .right .nav-link {
   letter-spacing: 0.2px;
   color: #ffffff;
 }
-header .content .title {
+header .content .title-header {
   position: relative;
   font-family: CenturyGothic;
   font-size: 80px;
