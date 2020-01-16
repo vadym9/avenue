@@ -96,3 +96,34 @@
         transform: translateY(-50%);
     }
 }
+.button-download-report{
+    width: 281px;
+    height: 60px;
+    opacity: 0.3;
+    border-radius: 10px;
+    border: solid 1px #ffffff;
+    background: none;
+}
+
+.text-button-download-report{
+    font-family: CenturyGothic;
+    position: relative;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #ffffff;
+
+  &:before{
+      content: '\e900';
+      font-family:'icomoon';
+        font-size: 20px;
+      position: absolute;
+      right:-20%;
+      top:50%;
+      transform: translateY(-50%);
+  }
+}

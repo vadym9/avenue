@@ -114,12 +114,48 @@
   transform: translateY(-50%);
 }
 
+.button-download-report {
+  width: 281px;
+  height: 60px;
+  opacity: 0.3;
+  border-radius: 10px;
+  border: solid 1px #ffffff;
+  background: none;
+}
+
+.text-button-download-report {
+  font-family: CenturyGothic;
+  position: relative;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #ffffff;
+}
+.text-button-download-report:before {
+  content: "";
+  font-family: "icomoon";
+  font-size: 20px;
+  position: absolute;
+  right: -20%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .jcsb {
   justify-content: space-between;
 }
 
 .flex {
   display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
@@ -211,6 +247,29 @@
   line-height: 1.29;
   letter-spacing: 0.2px;
   color: #000000;
+}
+
+.small-title {
+  font-family: Heebo;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.middle-title {
+  font-family: CenturyGothic;
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #ffffff;
 }
 
 header {
@@ -344,6 +403,17 @@ header .content .description {
 }
 .industry-report .container {
   margin: 0px auto;
+}
+.industry-report .container .info {
+  margin-top: 80px;
+  padding-top: 80px;
+  align-items: center;
+}
+.industry-report .container .info .middle-title {
+  margin-top: 20px;
+}
+.industry-report .container .info .download-report {
+  margin-top: 40px;
 }
 .industry-report .lines {
   position: absolute;

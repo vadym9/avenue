@@ -6,11 +6,16 @@
     display: flex;
 }
 
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
 .container {
     max-width: 1180px;
     padding: 0 80px;
     margin: 120px auto;
     width:60%;
+   
 }
 
 

@@ -70,7 +70,28 @@ $containerWidth:60%;
   color: #000000;
 }
 
+.small-title{
+  font-family: Heebo;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
 
+.middle-title{
+  font-family: CenturyGothic;
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #ffffff;
+}
 // @include themable(theme-1,#f7eb80, red)
 
 // ------------- need help--
