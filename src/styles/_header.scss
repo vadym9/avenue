@@ -1,11 +1,7 @@
 
 header {
-    
-    
-    .container{
-        height: 100vh;
-      
-    }
+    height: 100vh;
+   
     .brand{
         object-fit: cover;
         position: absolute;
@@ -23,10 +19,9 @@ header {
     }
 
     .content{
-
         // border: 1px solid purple;
         position: absolute;
-        width: 60%;
+        // width: 60%;
         left: 20%;
         right: 20%;
         height: 100vh;
