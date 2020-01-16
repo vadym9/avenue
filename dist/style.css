@@ -124,7 +124,7 @@
 .container {
   max-width: 1180px;
   padding: 0 80px;
-  margin: 0 auto;
+  margin: 120px auto;
   width: 60%;
 }
 
@@ -285,7 +285,6 @@ header .content .description {
   flex-direction: column;
 }
 .two-columns .title {
-  margin-top: 120px;
   align-self: center;
 }
 .two-columns .content {
