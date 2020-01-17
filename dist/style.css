@@ -88,7 +88,6 @@
   background-color: white;
   width: 160px;
   height: 60px;
-  margin-top: 40px;
   border-radius: 10px;
   border: solid 1px #1a3cfa;
 }
@@ -165,6 +164,10 @@
   width: 60%;
 }
 
+.blue-text {
+  color: #1a3cfa;
+}
+
 .debug-yellow {
   border: 1px solid yellow;
 }
@@ -183,6 +186,10 @@
 
 .debug-purple {
   border: 1px solid purple;
+}
+
+body {
+  background-color: #fafbfc;
 }
 
 @font-face {
@@ -363,6 +370,9 @@ header .content .description {
   display: flex;
   flex-direction: column;
 }
+.two-columns .btn {
+  margin-top: 40px;
+}
 .two-columns .title {
   align-self: center;
 }
@@ -386,15 +396,16 @@ header .content .description {
   justify-content: space-around;
   margin-top: 80px;
 }
-
-.column {
+.three-columns .title-column {
+  margin-top: 80px;
+}
+.three-columns .column {
   margin: 0px 30px;
   display: flex;
   flex-direction: column;
 }
-
-.title-column {
-  margin-top: 80px;
+.three-columns .text-column {
+  margin-top: 20px;
 }
 
 .industry-report {
@@ -418,6 +429,28 @@ header .content .description {
 .industry-report .lines {
   position: absolute;
   right: 45%;
+}
+
+.career-dev .advantage-program {
+  margin-right: 10px;
+}
+.career-dev .text {
+  margin-top: 20px;
+}
+.career-dev .img-column {
+  justify-content: center;
+}
+.career-dev img {
+  margin: 32px 0px;
+}
+.career-dev .info {
+  padding: 40px;
+}
+.career-dev .tw-columns {
+  margin-top: 80px;
+}
+.career-dev .learn-more {
+  margin-top: 76px;
 }
 
 /*# sourceMappingURL=style.css.map */

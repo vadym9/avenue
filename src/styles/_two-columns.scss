@@ -6,7 +6,9 @@ $containerWidth: 60%;
     display: flex;
     flex-direction: column;
    
-
+    .btn{
+        margin-top:40px;
+    }
     .title{
         align-self: center;
     }
