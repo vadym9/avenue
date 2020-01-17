@@ -1,0 +1,35 @@
+.three-columns{
+    justify-content: space-around;
+    margin-top: 80px;
+    
+    .title-column{
+        margin-top:80px;
+    }
+    .column{
+        margin: 0px 30px;
+        // width:33,3%;
+        display:flex;
+        flex-direction: column;
+    }
+    .text-column{
+        // flex:1;
+        margin-top:20px;
+    }
+}
+
+
+
+.img-column{
+    // width:80%;
+    // padding: 0px 5px;
+    // align-self:center;
+    // position: relative;
+}
+
+
+
+.image{
+    // position: absolute;
+  
+  
+}

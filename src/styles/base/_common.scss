@@ -1,0 +1,53 @@
+.jcsb {
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    max-width: 1180px;
+    padding: 0 80px;
+    margin: 120px auto;
+    width:60%;
+   
+}
+
+.blue-text{
+    color: #1a3cfa;
+}
+
+
+
+
+.description-column{
+
+}
+
+.text{
+
+}
+
+.debug-yellow{
+    border: 1px solid yellow;
+}
+
+.debug-red{
+    border: 1px solid red;
+}
+
+.debug-green{
+    border: 1px solid green;
+}
+
+.debug-blue{
+    border: 1px solid blue;
+}
+.debug-purple{
+    border: 1px solid purple;
+}
