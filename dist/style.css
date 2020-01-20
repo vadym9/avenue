@@ -144,6 +144,10 @@
   background-color: #ffffff27;
 }
 
+body {
+  margin: 0px;
+}
+
 .jcsb {
   justify-content: space-between;
 }
@@ -166,7 +170,7 @@
 .container {
   max-width: 1180px;
   padding: 0 80px;
-  margin: 120px auto;
+  margin: 0px auto;
   width: 60%;
 }
 
@@ -325,29 +329,29 @@ body {
   color: #ffffff;
 }
 
-header {
-  height: 100vh;
+h1 {
+  margin: 0px;
+  font-size: 80px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: 0.2px;
 }
-header .brand {
-  object-fit: cover;
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-  right: 35%;
-  z-index: 1;
+
+h3 {
+  margin: 0px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: 0.2px;
 }
-header .close-smiling {
-  position: absolute;
-  left: 35%;
-  object-fit: cover;
-  width: 65%;
-  height: 100vh;
-}
+
 header .content {
   position: absolute;
   left: 20%;
   right: 20%;
-  height: 100vh;
   z-index: 2;
   display: flex;
   flex-direction: column;
@@ -397,19 +401,44 @@ header .content .title-header {
   color: #ffffff;
   margin-top: 69px;
 }
-header .content .description {
-  width: 580px;
-  height: 112px;
+.hero {
+  height: 100vh;
+  position: relative;
+}
+.hero .container .content {
+  color: white;
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  z-index: 2;
+  margin-top: 169px;
+  display: flex;
+  flex-direction: column;
+}
+.hero .container .content .hero--title {
+  width: 50%;
+}
+.hero .container .content .hero--subtitle {
+  margin: 40px 0px;
+  width: 50%;
+}
+.hero .white-button {
   margin-top: 40px;
-  margin-bottom: 80px;
-  font-family: Heebo;
-  font-size: 18px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.56;
-  letter-spacing: 0.2px;
-  color: #ffffff;
+}
+.hero .close-smiling {
+  position: absolute;
+  left: 35%;
+  object-fit: cover;
+  width: 65%;
+  height: 100vh;
+}
+.hero .brand {
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  right: 35%;
+  z-index: 1;
 }
 
 .two-columns {
@@ -490,8 +519,11 @@ header .content .description {
   right: 45%;
 }
 
-.career-dev .advantage-program {
-  margin-right: 10px;
+.career-dev .tw-columns {
+  margin-top: 80px;
+}
+.career-dev .tw-columns .column {
+  width: calc(50% - 5px);
 }
 .career-dev .text {
   margin-top: 20px;
@@ -504,9 +536,6 @@ header .content .description {
 }
 .career-dev .info {
   padding: 40px;
-}
-.career-dev .tw-columns {
-  margin-top: 80px;
 }
 .career-dev .learn-more {
   margin-top: 76px;
