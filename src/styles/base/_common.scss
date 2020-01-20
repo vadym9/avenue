@@ -10,6 +10,12 @@
     display: flex;
     flex-direction: column;
 }
+
+.flex-column-align-center{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
 .container {
     max-width: 1180px;
     padding: 0 80px;
@@ -18,11 +24,32 @@
    
 }
 
+.avatar-row{
+    margin-top:40px;
+}
+.name-row{
+    margin-top:20px;
+}
+.name{
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+}
+.position{
+    margin-top:4px;
+}
+
 .blue-text{
     color: #1a3cfa;
 }
 
+.carousel-description{
 
+}
 
 
 .description-column{
@@ -32,6 +59,12 @@
 .text{
 
 }
+// .prev{
+//     display: absolute;
+//     width:20px;
+//     height:20px;
+//     background-color: black;
+// }
 
 .debug-yellow{
     border: 1px solid yellow;
@@ -51,3 +84,4 @@
 .debug-purple{
     border: 1px solid purple;
 }
+

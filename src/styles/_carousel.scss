@@ -1,0 +1,31 @@
+.carousel{
+    color: white;
+    background:#1a3cfa;
+    
+    .title{
+        margin-top:120px;
+        color: white;
+    }
+    // position: relative;
+    .slider{
+        margin-top:40px;
+        margin-bottom:120px;
+        // &.prev{
+        //     height: 150px;
+        //     width:40px;
+        //     background:black;
+        // }
+        
+        .flex-column-align-center{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+       
+        
+        .william-todd{
+            
+        }
+    }
+    
+}
