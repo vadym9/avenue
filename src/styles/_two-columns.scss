@@ -3,36 +3,59 @@
 $containerWidth: 60%;
 
 .two-columns{
-    display: flex;
-    flex-direction: column;
-   
-    .btn{
-        margin-top:40px;
-    }
-    .title{
-        align-self: center;
-    }
+    .container{
+        .content{
+            .column{
 
-    .content{
-       
-        margin-top: 80px;
-        display: flex;
-        
-        .happy-people{
-            
-            width:50%;
+                .column-desc{
+                    margin:20px 0px;
+                }
 
-            img{
-                width:100%;
+                .column-btn{
+                    margin-top:12px;
+                }
+
+                width: calc(50% - 60px);
+
             }
         }
 
-        .info{
-            width:50%;
-            margin-left:120px;
-            margin-top:28px;
+        .content-title{
+            margin-bottom:80px;
         }
     }
+}
+// .two-columns{
+//     display: flex;
+//     flex-direction: column;
+   
+//     .btn{
+//         margin-top:40px;
+//     }
+//     .title{
+//         align-self: center;
+//     }
+
+//     .content{
+       
+//         margin-top: 80px;
+//         display: flex;
+        
+//         .happy-people{
+            
+//             width:50%;
+
+//             img{
+//                 width:100%;
+//             }
+//         }
+
+//         .info{
+//             width:50%;
+//             margin-left:120px;
+//             margin-top:28px;
+//         }
+//     }
     
 
-}
+// }

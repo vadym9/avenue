@@ -1,6 +1,6 @@
 body {
     margin:0px;
-    
+
     // font-family: Heebo;
     // font-size: 18px;
     // font-weight: normal;
@@ -17,12 +17,14 @@ body {
 
 .flex {
     display: flex;
+    justify-content: space-between;
 }
 
 .flex-column{
     display: flex;
     flex-direction: column;
 }
+
 
 .flex-column-align-center{
     display: flex;
@@ -35,6 +37,10 @@ body {
     margin: 0px auto;
     width:60%;
    
+}
+
+.section-margin{
+    margin: 120px 0px;
 }
 
 .avatar-row{

@@ -154,6 +154,7 @@ body {
 
 .flex {
   display: flex;
+  justify-content: space-between;
 }
 
 .flex-column {
@@ -172,6 +173,10 @@ body {
   padding: 0 80px;
   margin: 0px auto;
   width: 60%;
+}
+
+.section-margin {
+  margin: 120px 0px;
 }
 
 .avatar-row {
@@ -339,8 +344,20 @@ h1 {
   letter-spacing: 0.2px;
 }
 
+h2 {
+  margin: 0px;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+
 h3 {
   margin: 0px;
+  font-size: 18;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -441,30 +458,17 @@ header .content .title-header {
   z-index: 1;
 }
 
-.two-columns {
-  display: flex;
-  flex-direction: column;
+.two-columns .container .content .column {
+  width: calc(50% - 60px);
 }
-.two-columns .btn {
-  margin-top: 40px;
+.two-columns .container .content .column .column-desc {
+  margin: 20px 0px;
 }
-.two-columns .title {
-  align-self: center;
+.two-columns .container .content .column .column-btn {
+  margin-top: 12px;
 }
-.two-columns .content {
-  margin-top: 80px;
-  display: flex;
-}
-.two-columns .content .happy-people {
-  width: 50%;
-}
-.two-columns .content .happy-people img {
-  width: 100%;
-}
-.two-columns .content .info {
-  width: 50%;
-  margin-left: 120px;
-  margin-top: 28px;
+.two-columns .container .content-title {
+  margin-bottom: 80px;
 }
 
 .three-columns {
