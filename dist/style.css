@@ -472,9 +472,17 @@ header .content .title-header {
 .two-columns .container .content .column {
   width: calc(50% - 60px);
 }
+.two-columns .container .content .column .column-subtitle {
+  color: #000000;
+  margin-top: 40px;
+}
 .two-columns .container .content .column .column-desc {
   margin: 20px 0px;
   color: #666666;
+}
+.two-columns .container .content .column .column-img {
+  display: flex;
+  justify-content: center;
 }
 .two-columns .container .content .column .column-btn {
   margin-top: 12px;
