@@ -357,7 +357,18 @@ h2 {
 
 h3 {
   margin: 0px;
-  font-size: 18;
+  font-family: CenturyGothic;
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: 0.2px;
+}
+
+h4 {
+  margin: 0px;
+  font-size: 18px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -463,12 +474,14 @@ header .content .title-header {
 }
 .two-columns .container .content .column .column-desc {
   margin: 20px 0px;
+  color: #666666;
 }
 .two-columns .container .content .column .column-btn {
   margin-top: 12px;
 }
 .two-columns .container .content-title {
   margin-bottom: 80px;
+  color: #2d2d2d;
 }
 
 .three-columns {
@@ -503,24 +516,30 @@ header .content .title-header {
 .industry-report {
   background-color: #1a3cfa;
   height: 380px;
-}
-.industry-report .container {
-  margin: 0px auto;
+  position: relative;
 }
 .industry-report .container .info {
+  color: white;
   margin-top: 80px;
   padding-top: 80px;
   align-items: center;
+  justify-content: center;
 }
-.industry-report .container .info .middle-title {
+.industry-report .container .info .row {
+  display: flex;
+  justify-content: center;
+}
+.industry-report .container .info .info-title {
   margin-top: 20px;
+  width: 40%;
 }
 .industry-report .container .info .download-report {
   margin-top: 40px;
 }
 .industry-report .lines {
   position: absolute;
-  right: 45%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .career-dev .tw-columns {
@@ -561,6 +580,63 @@ header .content .title-header {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.three-columns .container .content .content-title {
+  margin-bottom: 80px;
+  color: #2d2d2d;
+}
+.three-columns .container .content .flex .column {
+  width: 33.33%;
+}
+.three-columns .container .content .flex .column .column-subtitle {
+  margin-top: 80px;
+}
+.three-columns .container .content .flex .column .column-desc {
+  margin-top: 22px;
+  color: #666666;
+}
+.three-columns .container .content .flex .column:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: calc(100% + 15px);
+  width: 1px;
+  height: 100%;
+  background: #e8e9eb;
+}
+.three-columns .container .content .flex .column:last-child:before {
+  display: none;
+}
+
+.one-column {
+  background-color: #1a3cfa;
+  height: auto;
+  color: white;
+}
+.one-column .container .content {
+  margin-top: 80px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+.one-column .container .content .column {
+  width: 60%;
+}
+.one-column .container .content .column .column-title {
+  margin-top: 20px;
+}
+.one-column .container .content .column .column-btn {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+.one-column .container .content .column .row {
+  display: flex;
+  justify-content: center;
+}
+.one-column .lines {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /*# sourceMappingURL=style.css.map */

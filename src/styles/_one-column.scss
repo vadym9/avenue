@@ -1,0 +1,34 @@
+.one-column{
+    background-color: #1a3cfa;
+    height: auto;
+    color: white;
+    .container{
+
+        .content{
+            margin-top:80px;
+            padding-top:80px;
+            display: flex;
+            justify-content: center;
+
+            .column{
+                width:60%;
+                .column-title{
+                    margin-top: 20px;
+                }
+                .column-btn{
+                    margin-top:40px;
+                    margin-bottom: 80px;
+                }
+                .row{
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+    .lines{
+        position: absolute;
+        left:50%;
+        transform: translateX(-50%);
+    }
+}
