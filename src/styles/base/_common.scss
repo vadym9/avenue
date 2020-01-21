@@ -1,6 +1,6 @@
 body {
     margin:0px;
-
+    background: $bg;
     // font-family: Heebo;
     // font-size: 18px;
     // font-weight: normal;
@@ -9,6 +9,15 @@ body {
     // line-height: 1.56;
     // letter-spacing: 0.2px;
     // color: #666666;
+    p{
+        margin:0px;
+        font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: 0.2px;
+    }
 }
 
 .jcsb {
@@ -68,6 +77,10 @@ body {
 
 .carousel-description{
 
+.message{
+    width:100%;
+    resize: none;
+}
 }
 
 

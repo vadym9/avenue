@@ -170,3 +170,31 @@
 
 }
 }
+
+.blue-btn{
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #1a3cfa;
+  border:none;
+}
+
+.blue-btn-title{
+  position: relative;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  
+  &:before{
+    position: absolute;
+    font-family:'icomoon';
+    content:'\e901';
+    right: -20%;
+    top:50%;
+    transform: translateY(-50%);
+  }
+} 
