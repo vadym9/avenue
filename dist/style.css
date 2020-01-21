@@ -578,6 +578,7 @@ header .content .title-header {
 }
 .carousel .content .content-title {
   margin-top: 120px;
+  margin-bottom: 20px;
   color: white;
 }
 .carousel .content .slider {
@@ -589,6 +590,7 @@ header .content .title-header {
 .carousel .content .slider .slide .column-desc {
   margin: 20px 0px;
   width: calc(100% - 400px);
+  text-align: center;
 }
 .carousel .content .slider .flex-column-align-center {
   display: flex;
@@ -652,6 +654,29 @@ header .content .title-header {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.two-cards .container .content .column {
+  width: calc(50% - 60px);
+}
+.two-cards .container .content .column .column-subtitle {
+  color: #000000;
+  margin-top: 40px;
+}
+.two-cards .container .content .column .column-desc {
+  margin: 20px 0px;
+  color: #666666;
+}
+.two-cards .container .content .column .column-img {
+  display: flex;
+  justify-content: center;
+}
+.two-cards .container .content .column .column-btn {
+  margin-top: 12px;
+}
+.two-cards .container .content-title {
+  margin-bottom: 80px;
+  color: #2d2d2d;
 }
 
 /*# sourceMappingURL=style.css.map */
