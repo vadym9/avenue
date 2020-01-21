@@ -1,0 +1,682 @@
+@charset "UTF-8";
+.white-button {
+  width: 258px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: none;
+}
+
+.button-text {
+  position: relative;
+  width: 175px;
+  height: 24px;
+  font-family: CenturyGothic;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  color: #1a3cfa;
+}
+.button-text:after {
+  content: "";
+  position: absolute;
+  font-family: icomoon;
+  font-size: 20px;
+  right: -25px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.clear-button {
+  width: 120px;
+  height: 50px;
+  background: none;
+  border-radius: 10px;
+  border: solid 1px #ffffff;
+  color: #ffffff;
+}
+
+.clear-button-text {
+  position: relative;
+  height: 24px;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.2px;
+  text-align: right;
+}
+.clear-button-text:before {
+  content: "";
+  position: absolute;
+  font-family: icomoon;
+  font-size: 14px;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.button-learn-more {
+  background-color: white;
+  width: 160px;
+  height: 60px;
+  border-radius: 10px;
+  border: solid 1px #1a3cfa;
+}
+
+.button-learn-more-text {
+  font-family: CenturyGothic;
+  position: relative;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #1a3cfa;
+}
+.button-learn-more-text:after {
+  font-family: icomoon;
+  content: "";
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.button-download-report {
+  width: 281px;
+  height: 60px;
+  opacity: 0.3;
+  border-radius: 10px;
+  border: solid 1px #ffffff;
+  background: none;
+}
+
+.text-button-download-report {
+  font-family: CenturyGothic;
+  position: relative;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #ffffff;
+}
+.text-button-download-report:before {
+  content: "";
+  font-family: "icomoon";
+  font-size: 20px;
+  position: absolute;
+  right: -20%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slider {
+  position: relative;
+}
+.slider .slick-prev:before {
+  font-family: "icomoon";
+  position: absolute;
+  left: -100%;
+  font-size: 45px;
+  content: "";
+  border-radius: 30px;
+  color: #ffffff;
+  background-color: #ffffff27;
+}
+.slider .slick-next:before {
+  font-family: "icomoon";
+  right: -100%;
+  font-size: 45px;
+  content: "";
+  border-radius: 30px;
+  color: #ffffff;
+  background-color: #ffffff27;
+}
+
+body {
+  margin: 0px;
+}
+
+.jcsb {
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-column-align-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  max-width: 1180px;
+  padding: 0 80px;
+  margin: 0px auto;
+  width: 60%;
+}
+
+.section-margin {
+  margin: 120px 0px;
+}
+
+.avatar-row {
+  margin-top: 40px;
+}
+
+.name-row {
+  margin-top: 20px;
+}
+
+.name {
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.position {
+  margin-top: 4px;
+}
+
+.blue-text {
+  color: #1a3cfa;
+}
+
+.border-carousel {
+  border: 1px solid #1a3cfa;
+}
+
+.debug-yellow {
+  border: 1px solid yellow;
+}
+
+.debug-red {
+  border: 1px solid red;
+}
+
+.debug-green {
+  border: 1px solid green;
+}
+
+.debug-blue {
+  border: 1px solid blue;
+}
+
+.debug-purple {
+  border: 1px solid purple;
+}
+
+body {
+  background-color: #fafbfc;
+}
+
+@font-face {
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot?lfyq3x");
+  src: url("fonts/icomoon.eot?lfyq3x#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?lfyq3x") format("truetype"), url("fonts/icomoon.woff?lfyq3x") format("woff"), url("fonts/icomoon.svg?lfyq3x#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^=icon-], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-user:before {
+  content: "";
+}
+
+.icon-cheveron-right:before {
+  content: "";
+}
+
+.text {
+  font-family: Heebo;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: 0.2px;
+  color: #666666;
+}
+
+.title {
+  font-family: CenturyGothic;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #2d2d2d;
+}
+
+.title-column {
+  font-family: CenturyGothic;
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+
+.small-title {
+  font-family: Heebo;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.middle-title {
+  font-family: CenturyGothic;
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.description-row {
+  width: 780px;
+  height: 84px;
+  font-family: Heebo;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #ffffff;
+}
+
+h1 {
+  margin: 0px;
+  font-size: 80px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: 0.2px;
+}
+
+h2 {
+  margin: 0px;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+
+h3 {
+  margin: 0px;
+  font-family: CenturyGothic;
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: 0.2px;
+}
+
+h4 {
+  margin: 0px;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: 0.2px;
+}
+
+header .content {
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
+header .content .button-block {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .content .button-block .left .white-logo {
+  width: 139px;
+  height: 40px;
+  object-fit: contain;
+}
+header .content .button-block .right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .content .button-block .right .links {
+  margin-right: 25px;
+}
+header .content .button-block .right .nav-link {
+  width: 89px;
+  height: 24px;
+  text-decoration: none;
+  margin-left: 5px;
+  font-family: CenturyGothic;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+header .content .title-header {
+  position: relative;
+  font-family: CenturyGothic;
+  font-size: 80px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin-top: 69px;
+}
+.hero {
+  height: 100vh;
+  position: relative;
+}
+.hero .container .content {
+  color: white;
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  z-index: 2;
+  margin-top: 169px;
+  display: flex;
+  flex-direction: column;
+}
+.hero .container .content .hero--title {
+  width: 50%;
+}
+.hero .container .content .hero--subtitle {
+  margin: 40px 0px;
+  width: 50%;
+}
+.hero .white-button {
+  margin-top: 40px;
+}
+.hero .close-smiling {
+  position: absolute;
+  left: 35%;
+  object-fit: cover;
+  width: 65%;
+  height: 100vh;
+}
+.hero .brand {
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  right: 35%;
+  z-index: 1;
+}
+
+.two-columns .container .content .column {
+  width: calc(50% - 60px);
+}
+.two-columns .container .content .column .column-subtitle {
+  color: #000000;
+  margin-top: 40px;
+}
+.two-columns .container .content .column .column-desc {
+  margin: 20px 0px;
+  color: #666666;
+}
+.two-columns .container .content .column .column-img {
+  display: flex;
+  justify-content: center;
+}
+.two-columns .container .content .column .column-btn {
+  margin-top: 12px;
+}
+.two-columns .container .content-title {
+  margin-bottom: 80px;
+  color: #2d2d2d;
+}
+
+.three-columns {
+  justify-content: space-around;
+  margin-top: 80px;
+}
+.three-columns .title-column {
+  margin-top: 80px;
+}
+.three-columns .column {
+  position: relative;
+  margin: 0px 30px;
+  display: flex;
+  flex-direction: column;
+}
+.three-columns .column:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: calc(100% + 15px);
+  width: 1px;
+  height: 100%;
+  background: #e8e9eb;
+}
+.three-columns .column:last-child:before {
+  display: none;
+}
+.three-columns .text-column {
+  margin-top: 20px;
+}
+
+.industry-report {
+  background-color: #1a3cfa;
+  height: 380px;
+  position: relative;
+}
+.industry-report .container .info {
+  color: white;
+  margin-top: 80px;
+  padding-top: 80px;
+  align-items: center;
+  justify-content: center;
+}
+.industry-report .container .info .row {
+  display: flex;
+  justify-content: center;
+}
+.industry-report .container .info .info-title {
+  margin-top: 20px;
+  width: 40%;
+}
+.industry-report .container .info .download-report {
+  margin-top: 40px;
+}
+.industry-report .lines {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.career-dev .tw-columns {
+  margin-top: 80px;
+}
+.career-dev .tw-columns .column {
+  width: calc(50% - 5px);
+}
+.career-dev .text {
+  margin-top: 20px;
+}
+.career-dev .img-column {
+  justify-content: center;
+}
+.career-dev img {
+  margin: 32px 0px;
+}
+.career-dev .info {
+  padding: 40px;
+}
+.career-dev .learn-more {
+  margin-top: 76px;
+}
+
+.carousel {
+  color: white;
+  background: #1a3cfa;
+}
+.carousel .content .content-title {
+  margin-top: 120px;
+  margin-bottom: 20px;
+  color: white;
+}
+.carousel .content .slider {
+  margin-bottom: 120px;
+}
+.carousel .content .slider .slide .column-img {
+  margin: 20px 0px;
+}
+.carousel .content .slider .slide .column-desc {
+  margin: 20px 0px;
+  width: calc(100% - 400px);
+  text-align: center;
+}
+.carousel .content .slider .flex-column-align-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.three-columns .container .content .content-title {
+  margin-bottom: 80px;
+  color: #2d2d2d;
+}
+.three-columns .container .content .flex .column {
+  width: 33.33%;
+}
+.three-columns .container .content .flex .column .column-subtitle {
+  margin-top: 80px;
+}
+.three-columns .container .content .flex .column .column-desc {
+  margin-top: 22px;
+  color: #666666;
+}
+.three-columns .container .content .flex .column:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: calc(100% + 15px);
+  width: 1px;
+  height: 100%;
+  background: #e8e9eb;
+}
+.three-columns .container .content .flex .column:last-child:before {
+  display: none;
+}
+
+.one-column {
+  background-color: #1a3cfa;
+  height: auto;
+  color: white;
+}
+.one-column .container .content {
+  margin-top: 80px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+.one-column .container .content .column {
+  width: 60%;
+}
+.one-column .container .content .column .column-title {
+  margin-top: 20px;
+}
+.one-column .container .content .column .column-btn {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+.one-column .container .content .column .row {
+  display: flex;
+  justify-content: center;
+}
+.one-column .lines {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.two-cards .container .content .column {
+  width: calc(50% - 60px);
+}
+.two-cards .container .content .column .column-subtitle {
+  color: #000000;
+  margin-top: 40px;
+}
+.two-cards .container .content .column .column-desc {
+  margin: 20px 0px;
+  color: #666666;
+}
+.two-cards .container .content .column .column-img {
+  display: flex;
+  justify-content: center;
+}
+.two-cards .container .content .column .column-btn {
+  margin-top: 12px;
+}
+.two-cards .container .content-title {
+  margin-bottom: 80px;
+  color: #2d2d2d;
+}
+
+/*# sourceMappingURL=style.css.map */

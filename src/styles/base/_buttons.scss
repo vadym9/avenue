@@ -21,7 +21,7 @@
   color: #1a3cfa;
 
   &:after{
-    content: '\e900';
+    content: '\e901';
     position: absolute;
     font-family: icomoon;
     font-size: 20px;
@@ -55,7 +55,7 @@
     text-align: right;
     // color: white;
     &:before{
-        content: '\e901';
+        content: '\e902';
         position: absolute;
         font-family: icomoon;
         font-size: 14px;
@@ -89,7 +89,7 @@
 
     &:after{
         font-family: icomoon;
-        content:'\e900';
+        content:'\e901';
         position:absolute;
         right:-20px;
         top:50%;
@@ -118,7 +118,7 @@
   color: #ffffff;
 
   &:before{
-      content: '\e900';
+      content: '\e901';
       font-family:'icomoon';
         font-size: 20px;
       position: absolute;
@@ -126,4 +126,47 @@
       top:50%;
       transform: translateY(-50%);
   }
+}
+
+.slider{
+  position: relative;
+  .slick-prev{
+   
+    &:before{
+        
+      font-family: 'icomoon';
+      position: absolute;
+      left:-100%;
+      // margin-right: 100px;
+      font-size:45px;
+      content:'\e900';
+      // transform: translateX(-90);
+      
+      border-radius:30px;
+      // opacity: 0.1;
+      color:#ffffff;
+      background-color: #ffffff27;
+      
+  }
+  }
+  .slick-next{
+    
+    // position: relative;
+    &:before{
+        
+        font-family: 'icomoon';
+        // position: absolute;
+        right:-100%;
+        font-size:45px;
+        content:'\e901';
+        // transform: translateX(-90);
+        
+        border-radius:30px;
+        // opacity: 0.1;
+        color:#ffffff;
+        background-color: #ffffff27;
+        
+    }
+
+}
 }

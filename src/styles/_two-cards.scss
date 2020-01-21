@@ -1,8 +1,4 @@
-
-
-$containerWidth: 60%;
-
-.two-columns{
+.two-cards{
     .container{
         .content{
             .column{
@@ -33,37 +29,3 @@ $containerWidth: 60%;
         }
     }
 }
-// .two-columns{
-//     display: flex;
-//     flex-direction: column;
-   
-//     .btn{
-//         margin-top:40px;
-//     }
-//     .title{
-//         align-self: center;
-//     }
-
-//     .content{
-       
-//         margin-top: 80px;
-//         display: flex;
-        
-//         .happy-people{
-            
-//             width:50%;
-
-//             img{
-//                 width:100%;
-//             }
-//         }
-
-//         .info{
-//             width:50%;
-//             margin-left:120px;
-//             margin-top:28px;
-//         }
-//     }
-    
-
-// }
