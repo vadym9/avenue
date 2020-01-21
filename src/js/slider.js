@@ -4,6 +4,7 @@ $(document).ready(function(){
         // speed:300,
         autoplay:true,
         autoplaySpeed: 2000,
+        adaptiveHeight: true,
     //    dots:true
     // prevArrow: $('.prev')
     // infinite: true,
