@@ -1,0 +1,41 @@
+.three-columns{
+    .container{
+        .content{
+            
+            .content-title{
+                margin-bottom:80px;
+                color: #2d2d2d;
+            }
+            .flex{
+                .column{
+                    width:33.33%;
+                    .column-subtitle{
+                        margin-top:80px;
+                    }
+                    .column-desc{
+                        margin-top:22px;
+                        color: #666666;
+
+                    }
+
+                    &:before {
+                        content: '';
+                        position: absolute;
+                        top: 0;
+                        left: calc(100% + 15px);
+                        width: 1px;
+                        height: 100%;
+                        background: #e8e9eb;
+                    }
+                    
+                    &:last-child {
+                        &:before {
+                            display: none;
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}

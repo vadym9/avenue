@@ -1,7 +1,13 @@
 .career-dev{
-    .advantage-program{
-        margin-right:10px;
+    
+    .tw-columns{
+        margin-top: 80px;
+
+        .column {
+            width: calc(50% - 5px);
+        }
     }
+
 
     .title-column{
         // margin-top:40px;
@@ -22,9 +28,7 @@
     .info{
         padding:40px;
     }
-    .tw-columns{
-        margin-top: 80px;
-    }
+
     .learn-more{
         margin-top:76px;
     }
