@@ -215,13 +215,6 @@ body p {
   line-height: 1.56;
   letter-spacing: 0.2px;
 }
-body a {
-  color: white;
-  text-decoration: none;
-}
-body a:hover {
-  color: #1a3cfa;
-}
 
 .jcsb {
   justify-content: space-between;
@@ -289,26 +282,6 @@ body a:hover {
   border: 1px solid #1a3cfa;
 }
 
-.debug-yellow {
-  border: 1px solid yellow;
-}
-
-.debug-red {
-  border: 1px solid red;
-}
-
-.debug-green {
-  border: 1px solid green;
-}
-
-.debug-blue {
-  border: 1px solid blue;
-}
-
-.debug-purple {
-  border: 1px solid purple;
-}
-
 body {
   background-color: #fafbfc;
 }
@@ -321,7 +294,8 @@ body {
   font-style: normal;
   font-display: block;
 }
-[class^=icon-], [class*=" icon-"] {
+[class^=icon-],
+[class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "icomoon" !important;
   speak: none;
@@ -333,85 +307,6 @@ body {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-user:before {
-  content: "";
-}
-
-.icon-cheveron-right:before {
-  content: "";
-}
-
-.text {
-  font-family: Heebo;
-  font-size: 18px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.56;
-  letter-spacing: 0.2px;
-  color: #666666;
-}
-
-.title {
-  font-family: CenturyGothic;
-  font-size: 48px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.17;
-  letter-spacing: 0.2px;
-  text-align: center;
-  color: #2d2d2d;
-}
-
-.title-column {
-  font-family: CenturyGothic;
-  font-size: 28px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.29;
-  letter-spacing: 0.2px;
-  color: #000000;
-}
-
-.small-title {
-  font-family: Heebo;
-  font-size: 18px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.56;
-  letter-spacing: 0.2px;
-  color: #ffffff;
-}
-
-.middle-title {
-  font-family: CenturyGothic;
-  font-size: 28px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.29;
-  letter-spacing: 0.2px;
-  text-align: center;
-  color: #ffffff;
-}
-
-.description-row {
-  width: 780px;
-  height: 84px;
-  font-family: Heebo;
-  font-size: 18px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.56;
-  letter-spacing: 0.2px;
-  text-align: center;
-  color: #ffffff;
 }
 
 h1 {
@@ -675,6 +570,7 @@ header .content .title-header {
 }
 .three-columns .container .content .flex .column {
   width: 33.33%;
+  margin: 5px;
 }
 .three-columns .container .content .flex .column .column-subtitle {
   margin-top: 80px;
@@ -753,6 +649,13 @@ header .content .title-header {
 .footer {
   background-color: #2d2d2d;
   color: #ffffff;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #1a3cfa;
 }
 .footer .footer-top .container .content {
   padding: 80px 0px;

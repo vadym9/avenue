@@ -1,20 +1,20 @@
-.hero{
+.hero {
     height: 100vh;
     position: relative;
 
-    .container{
+    .container {
 
-        .content{
-            .hero--title{
-                width:50%;
+        .content {
+            .hero--title {
+                width: 50%;
             }
-            
-            .hero--subtitle{
+
+            .hero--subtitle {
                 // margin:0px;
                 margin: 40px 0px;
-                width:50%;
+                width: 50%;
             }
-            
+
             color: white;
             position: absolute;
             left: 20%;
@@ -25,30 +25,28 @@
             flex-direction: column;
         }
     }
-    
-    .white-button{
-    
-        margin-top:40px;
+
+    .white-button {
+        margin-top: 40px;
     }
 
-    .close-smiling{
+    .close-smiling {
         position: absolute;
         left: 35%;
         object-fit: cover;
         width: 65%;
         height: 100vh;
-        // z-index:1;
     }
 
-    .brand{
+    .brand {
         object-fit: cover;
         position: absolute;
         width: 100%;
         height: 100vh;
         right: 35%;
         z-index: 1;
-        
+
     }
 
-    
+
 }
