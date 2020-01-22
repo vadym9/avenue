@@ -6,6 +6,13 @@
   background-color: #ffffff;
   border: none;
 }
+.white-button:hover {
+  background: none;
+  border: 1px solid white;
+}
+.white-button:hover .button-text {
+  color: white;
+}
 
 .button-text {
   position: relative;
@@ -38,6 +45,12 @@
   border: solid 1px #ffffff;
   color: #ffffff;
 }
+.clear-button:hover {
+  background-color: white;
+}
+.clear-button:hover .clear-button-text {
+  color: #1a3cfa;
+}
 
 .clear-button-text {
   position: relative;
@@ -68,6 +81,12 @@
   border-radius: 10px;
   border: solid 1px #1a3cfa;
 }
+.button-learn-more:hover {
+  background: #1a3cfa;
+}
+.button-learn-more:hover .button-learn-more-text {
+  color: white;
+}
 
 .button-learn-more-text {
   font-family: CenturyGothic;
@@ -93,10 +112,15 @@
 .button-download-report {
   width: 281px;
   height: 60px;
-  opacity: 0.3;
   border-radius: 10px;
   border: solid 1px #ffffff;
   background: none;
+}
+.button-download-report:hover {
+  background-color: white;
+}
+.button-download-report:hover .text-button-download-report {
+  color: #1a3cfa;
 }
 
 .text-button-download-report {
@@ -150,6 +174,13 @@
   border-radius: 10px;
   background-color: #1a3cfa;
   border: none;
+}
+.blue-btn:hover {
+  background: white;
+  border: 1px solid #1a3cfa;
+}
+.blue-btn:hover .blue-btn-title {
+  color: #1a3cfa;
 }
 
 .blue-btn-title {
