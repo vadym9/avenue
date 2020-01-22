@@ -798,6 +798,13 @@ header .content .title-header {
 .footer .footer-top .container .content .content-two-columns .content-column .column-desc {
   margin-top: 20px;
 }
+.footer .footer-top .container .content .content-two-columns .content-column .column-social {
+  display: flex;
+  margin-top: 40px;
+}
+.footer .footer-top .container .content .content-two-columns .content-column .column-social .column-social-img {
+  margin-right: 20px;
+}
 .footer .footer-top .container .content .content-two-columns .content-column .three-col {
   display: flex;
   justify-content: space-between;

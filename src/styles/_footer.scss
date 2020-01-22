@@ -13,11 +13,25 @@
                     display: flex;
                     justify-content: space-between;
     
+
                     .content-column{
                         width: calc(50% - 60px);
                         // background: white;
                         .column-desc{
                             margin-top:20px;
+
+                        }
+                        .column-social{
+                            display: flex;
+                            margin-top:40px;
+
+                            .column-social-img{
+                                margin-right: 20px;
+                                // &:after{
+                                //     content:'';
+                                //     margin-right:20px; 
+                                // }
+                            }
                         }
                         .three-col{
                             display: flex;
