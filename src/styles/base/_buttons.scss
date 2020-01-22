@@ -1,15 +1,25 @@
-.white-button{
-    width: 258px;
-    height: 60px;
-    border-radius: 10px;
-    background-color: #ffffff;
-    border: none;
-    
-}
-.button-text{
-    position:relative;
+.white-button {
+  width: 258px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: none;
 
-    width: 175px;
+  &:hover {
+    background: none;
+    border: 1px solid white;
+
+    .button-text {
+      color: white;
+    }
+  }
+
+}
+
+.button-text {
+  position: relative;
+
+  width: 175px;
   height: 24px;
   font-family: CenturyGothic;
   font-size: 16px;
@@ -20,94 +30,121 @@
   letter-spacing: 0.2px;
   color: #1a3cfa;
 
-  &:after{
+  &:after {
     content: '\e901';
     position: absolute;
     font-family: icomoon;
     font-size: 20px;
     right: -25px;
-    top:50%;
+    top: 50%;
     transform: translateY(-50%)
   }
 }
 
-.clear-button{
+.clear-button {
   width: 120px;
   height: 50px;
-  background:none;
+  background: none;
   border-radius: 10px;
   border: solid 1px #ffffff;
-//   color:white;
-    color: #ffffff;
-    
-}
+  color: #ffffff;
 
-.clear-button-text{
-    position:relative;
-    height: 24px;
-    padding-left: 10px;
-    font-size: 14px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.71;
-    letter-spacing: 0.2px;
-    text-align: right;
-    // color: white;
-    &:before{
-        content: '\e902';
-        position: absolute;
-        font-family: icomoon;
-        font-size: 14px;
-        left: -20px;
-        top:50%;
-        transform: translateY(-50%);
+  &:hover {
+    background-color: white;
+
+    .clear-button-text {
+      color: #1a3cfa;
     }
+
+    // color: 
+  }
 }
 
-.button-learn-more{
-    background-color: white;;
-    width: 160px;
+.clear-button-text {
+  position: relative;
+  height: 24px;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.2px;
+  text-align: right;
+
+  // color: white;
+  &:before {
+    content: '\e902';
+    position: absolute;
+    font-family: icomoon;
+    font-size: 14px;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.button-learn-more {
+  background-color: white;
+  ;
+  width: 160px;
   height: 60px;
-  // margin-top:40px;
-//   opacity: 0.3;
   border-radius: 10px;
   border: solid 1px #1a3cfa;
-}
 
-.button-learn-more-text{
-    font-family: CenturyGothic;
-    position:relative;
-    font-size: 16px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: 0.2px;
-    text-align: center;
-    color: #1a3cfa;
+  &:hover {
+    background: #1a3cfa;
 
-    &:after{
-        font-family: icomoon;
-        content:'\e901';
-        position:absolute;
-        right:-20px;
-        top:50%;
-        transform: translateY(-50%);
+    .button-learn-more-text {
+      color: white;
     }
-}
-.button-download-report{
-    width: 281px;
-    height: 60px;
-    opacity: 0.3;
-    border-radius: 10px;
-    border: solid 1px #ffffff;
-    background: none;
+  }
 }
 
-.text-button-download-report{
-    font-family: CenturyGothic;
-    position: relative;
+.button-learn-more-text {
+  font-family: CenturyGothic;
+  position: relative;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #1a3cfa;
+
+
+
+  &:after {
+    font-family: icomoon;
+    content: '\e901';
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.button-download-report {
+  width: 281px;
+  height: 60px;
+  // opacity: 0.3;
+  border-radius: 10px;
+  border: solid 1px #ffffff;
+  background: none;
+
+  &:hover {
+    background-color: white;
+
+    .text-button-download-report {
+      color: #1a3cfa;
+    }
+  }
+}
+
+.text-button-download-report {
+  font-family: CenturyGothic;
+  position: relative;
   font-size: 16px;
   font-weight: bold;
   font-stretch: normal;
@@ -117,69 +154,67 @@
   text-align: center;
   color: #ffffff;
 
-  &:before{
-      content: '\e901';
-      font-family:'icomoon';
-        font-size: 20px;
-      position: absolute;
-      right:-20%;
-      top:50%;
-      transform: translateY(-50%);
+  &:before {
+    content: '\e901';
+    font-family: 'icomoon';
+    font-size: 20px;
+    position: absolute;
+    right: -20%;
+    top: 50%;
+    transform: translateY(-50%);
   }
 }
 
-.slider{
+.slider {
   position: relative;
-  .slick-prev{
-   
-    &:before{
-        
+
+  .slick-prev {
+
+    &:before {
+
       font-family: 'icomoon';
       position: absolute;
-      left:-100%;
-      // margin-right: 100px;
-      font-size:45px;
-      content:'\e900';
-      // transform: translateX(-90);
-      
-      border-radius:30px;
-      // opacity: 0.1;
-      color:#ffffff;
+      left: -100%;
+      font-size: 45px;
+      content: '\e900';
+      border-radius: 30px;
+      color: #ffffff;
       background-color: #ffffff27;
-      
-  }
-  }
-  .slick-next{
-    
-    // position: relative;
-    &:before{
-        
-        font-family: 'icomoon';
-        // position: absolute;
-        right:-100%;
-        font-size:45px;
-        content:'\e901';
-        // transform: translateX(-90);
-        
-        border-radius:30px;
-        // opacity: 0.1;
-        color:#ffffff;
-        background-color: #ffffff27;
-        
     }
+  }
 
-}
+  .slick-next {
+
+    &:before {
+      font-family: 'icomoon';
+      right: -100%;
+      font-size: 45px;
+      content: '\e901';
+      border-radius: 30px;
+      color: #ffffff;
+      background-color: #ffffff27;
+    }
+  }
 }
 
-.blue-btn{
+.blue-btn {
   width: 200px;
   height: 60px;
   border-radius: 10px;
   background-color: #1a3cfa;
-  border:none;
+  border: none;
+
+  &:hover {
+    background: white;
+    border: 1px solid #1a3cfa;
+
+    .blue-btn-title {
+      color: #1a3cfa;
+    }
+  }
 }
 
-.blue-btn-title{
+.blue-btn-title {
   position: relative;
   font-size: 16px;
   font-weight: bold;
@@ -188,13 +223,13 @@
   line-height: 1.5;
   letter-spacing: 0.2px;
   color: #ffffff;
-  
-  &:before{
+
+  &:before {
     position: absolute;
-    font-family:'icomoon';
-    content:'\e901';
+    font-family: 'icomoon';
+    content: '\e901';
     right: -20%;
-    top:50%;
+    top: 50%;
     transform: translateY(-50%);
   }
-} 
+}

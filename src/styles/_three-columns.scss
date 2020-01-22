@@ -1,19 +1,23 @@
-.three-columns{
-    .container{
-        .content{
-            
-            .content-title{
-                margin-bottom:80px;
+.three-columns {
+    .container {
+        .content {
+
+            .content-title {
+                margin-bottom: 80px;
                 color: #2d2d2d;
             }
-            .flex{
-                .column{
-                    width:33.33%;
-                    .column-subtitle{
-                        margin-top:80px;
+
+            .flex {
+                .column {
+                    width: 33.33%;
+                    margin: 5px;
+
+                    .column-subtitle {
+                        margin-top: 80px;
                     }
-                    .column-desc{
-                        margin-top:22px;
+
+                    .column-desc {
+                        margin-top: 22px;
                         color: #666666;
 
                     }
@@ -27,14 +31,14 @@
                         height: 100%;
                         background: #e8e9eb;
                     }
-                    
+
                     &:last-child {
                         &:before {
                             display: none;
                         }
                     }
                 }
-                
+
             }
         }
     }

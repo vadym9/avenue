@@ -1,0 +1,104 @@
+.footer {
+    background-color: #2d2d2d;
+    color: #ffffff;
+
+    a {
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+            color: #1a3cfa;
+        }
+    }
+
+    .footer-top {
+        .container {
+            .content {
+                padding: 80px 0px;
+
+                .content-two-columns {
+                    margin-top: 20px;
+                    display: flex;
+                    justify-content: space-between;
+
+                    .content-column {
+                        width: calc(50% - 60px);
+
+                        .column-desc {
+                            margin-top: 20px;
+
+                        }
+
+                        .column-social {
+                            display: flex;
+                            margin-top: 40px;
+
+                            .column-social-img {
+                                margin-right: 20px;
+                                // &:after{
+                                //     content:'';
+                                //     margin-right:20px; 
+                                // }
+                            }
+                        }
+
+                        .three-col {
+                            display: flex;
+                            justify-content: space-between;
+
+                            .column {
+                                .link {
+                                    margin-top: 20px;
+                                    // &:before{
+                                    //     content:' ';
+
+                                    //     margin-top:20px;
+                                    //     background:black;
+
+                                    // }
+
+
+                                }
+                            }
+
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-line {
+        border: 0.5px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .footer-copyright {
+        padding: 40px 0px;
+        color: white;
+
+        .container {
+            .content {
+                .content-two-columns {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .content-column {
+                        .content-column-two-subcolumns {
+                            display: flex;
+
+                            .subcolumn {
+
+                                &:first-child {
+                                    content: '';
+                                    margin-right: 40px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

@@ -1,34 +1,39 @@
-.one-column{
+.one-column {
     background-color: #1a3cfa;
     height: auto;
     color: white;
-    .container{
 
-        .content{
-            margin-top:80px;
-            padding-top:80px;
+    .container {
+
+        .content {
+            margin-top: 80px;
+            padding-top: 80px;
             display: flex;
             justify-content: center;
 
-            .column{
-                width:60%;
-                .column-title{
+            .column {
+                width: 60%;
+
+                .column-title {
                     margin-top: 20px;
                 }
-                .column-btn{
-                    margin-top:40px;
+
+                .column-btn {
+                    margin-top: 40px;
                     margin-bottom: 80px;
                 }
-                .row{
+
+                .row {
                     display: flex;
                     justify-content: center;
                 }
             }
         }
     }
-    .lines{
+
+    .lines {
         position: absolute;
-        left:50%;
+        left: 50%;
         transform: translateX(-50%);
     }
 }

@@ -1,21 +1,24 @@
-.two-cards{
-    .container{
-        .content{
-            .column{
-                .column-subtitle{
+.two-cards {
+    .container {
+        .content {
+            .column {
+                .column-subtitle {
                     color: #000000;
-                    margin-top:40px;
+                    margin-top: 40px;
                 }
-                .column-desc{
-                    margin:20px 0px;
+
+                .column-desc {
+                    margin: 20px 0px;
                     color: #666666;
                 }
-                .column-img{
+
+                .column-img {
                     display: flex;
                     justify-content: center;
                 }
-                .column-btn{
-                    margin-top:12px;
+
+                .column-btn {
+                    margin-top: 12px;
                 }
 
                 width: calc(50% - 60px);
@@ -23,8 +26,8 @@
             }
         }
 
-        .content-title{
-            margin-bottom:80px;
+        .content-title {
+            margin-bottom: 80px;
             color: #2d2d2d;
         }
     }

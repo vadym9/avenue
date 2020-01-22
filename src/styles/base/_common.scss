@@ -1,22 +1,15 @@
 body {
-    margin:0px;
+    margin: 0px;
     background: $bg;
-    // font-family: Heebo;
-    // font-size: 18px;
-    // font-weight: normal;
-    // font-stretch: normal;
-    // font-style: normal;
-    // line-height: 1.56;
-    // letter-spacing: 0.2px;
-    // color: #666666;
-    p{
-        margin:0px;
+
+    p {
+        margin: 0px;
         font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.56;
-    letter-spacing: 0.2px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.56;
+        letter-spacing: 0.2px;
     }
 }
 
@@ -29,36 +22,39 @@ body {
     justify-content: space-between;
 }
 
-.flex-column{
+.flex-column {
     display: flex;
     flex-direction: column;
 }
 
 
-.flex-column-align-center{
+.flex-column-align-center {
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
 }
+
 .container {
     max-width: 1180px;
     padding: 0 80px;
     margin: 0px auto;
-    width:60%;
-   
+    width: 60%;
+
 }
 
-.section-margin{
+.section-margin {
     margin: 120px 0px;
 }
 
-.avatar-row{
-    margin-top:40px;
+.avatar-row {
+    margin-top: 40px;
 }
-.name-row{
-    margin-top:20px;
+
+.name-row {
+    margin-top: 20px;
 }
-.name{
+
+.name {
     font-size: 28px;
     font-weight: bold;
     font-stretch: normal;
@@ -67,57 +63,23 @@ body {
     letter-spacing: 0.2px;
     color: #ffffff;
 }
-.position{
-    margin-top:4px;
+
+.position {
+    margin-top: 4px;
 }
 
-.blue-text{
+.blue-text {
     color: #1a3cfa;
 }
 
-.carousel-description{
+.carousel-description {
 
-.message{
-    width:100%;
-    resize: none;
-}
-}
-
-
-.description-column{
-
+    .message {
+        width: 100%;
+        resize: none;
+    }
 }
 
-.text{
-
+.border-carousel {
+    border: 1px solid #1a3cfa;
 }
-// .prev{
-//     display: absolute;
-//     width:20px;
-//     height:20px;
-//     background-color: black;
-// }
-
-.border-carousel{
-    border:1px solid #1a3cfa;
-}
-
-.debug-yellow{
-    border: 1px solid yellow;
-}
-
-.debug-red{
-    border: 1px solid red;
-}
-
-.debug-green{
-    border: 1px solid green;
-}
-
-.debug-blue{
-    border: 1px solid blue;
-}
-.debug-purple{
-    border: 1px solid purple;
-}
-
