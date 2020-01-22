@@ -184,6 +184,10 @@ body p {
   line-height: 1.56;
   letter-spacing: 0.2px;
 }
+body a {
+  color: white;
+  text-decoration: none;
+}
 
 .jcsb {
   justify-content: space-between;
@@ -826,6 +830,7 @@ header .content .title-header {
 }
 .footer .footer-copyright {
   padding: 40px 0px;
+  color: white;
 }
 .footer .footer-copyright .container .content .content-two-columns {
   display: flex;
