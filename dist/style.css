@@ -219,6 +219,9 @@ body a {
   color: white;
   text-decoration: none;
 }
+body a:hover {
+  color: #1a3cfa;
+}
 
 .jcsb {
   justify-content: space-between;
@@ -504,6 +507,9 @@ header .content .button-block .right .nav-link {
   letter-spacing: 0.2px;
   color: #ffffff;
 }
+header .content .button-block .right .nav-link:hover {
+  color: #7385ec;
+}
 header .content .title-header {
   position: relative;
   font-family: CenturyGothic;
@@ -577,86 +583,6 @@ header .content .title-header {
 .two-columns .container .content-title {
   margin-bottom: 80px;
   color: #2d2d2d;
-}
-
-.three-columns {
-  justify-content: space-around;
-  margin-top: 80px;
-}
-.three-columns .title-column {
-  margin-top: 80px;
-}
-.three-columns .column {
-  position: relative;
-  margin: 0px 30px;
-  display: flex;
-  flex-direction: column;
-}
-.three-columns .column:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: calc(100% + 15px);
-  width: 1px;
-  height: 100%;
-  background: #e8e9eb;
-}
-.three-columns .column:last-child:before {
-  display: none;
-}
-.three-columns .text-column {
-  margin-top: 20px;
-}
-
-.industry-report {
-  background-color: #1a3cfa;
-  height: 380px;
-  position: relative;
-}
-.industry-report .container .info {
-  color: white;
-  margin-top: 80px;
-  padding-top: 80px;
-  align-items: center;
-  justify-content: center;
-}
-.industry-report .container .info .row {
-  display: flex;
-  justify-content: center;
-}
-.industry-report .container .info .info-title {
-  margin-top: 20px;
-  width: 40%;
-}
-.industry-report .container .info .download-report {
-  margin-top: 40px;
-}
-.industry-report .lines {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.career-dev .tw-columns {
-  margin-top: 80px;
-}
-.career-dev .tw-columns .column {
-  width: calc(50% - 5px);
-}
-.career-dev .text {
-  margin-top: 20px;
-}
-.career-dev .img-column {
-  justify-content: center;
-}
-.career-dev img {
-  margin: 32px 0px;
-}
-.career-dev .info {
-  padding: 40px;
-}
-.career-dev .learn-more {
-  margin-top: 76px;
 }
 
 .contact-us .container .content .flex {

@@ -21,6 +21,10 @@ body {
     a{
         color: white;
         text-decoration: none;
+        
+        &:hover{
+            color: #1a3cfa;
+        }
     }
 }
 
