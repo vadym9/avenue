@@ -1,29 +1,32 @@
 .two-cards {
     .container {
         .content {
-            .column {
-                .column-subtitle {
-                    color: #000000;
-                    margin-top: 40px;
+            .columns{
+                .column {
+                    .column-subtitle {
+                        color: #000000;
+                        margin-top: 40px;
+                    }
+    
+                    .column-desc {
+                        margin: 20px 0px;
+                        color: #666666;
+                    }
+    
+                    .column-img {
+                        display: flex;
+                        justify-content: center;
+                    }
+    
+                    .column-btn {
+                        margin-top: 76px;
+                    }
+    
+                    width: calc(50% - 60px);
+    
                 }
-
-                .column-desc {
-                    margin: 20px 0px;
-                    color: #666666;
-                }
-
-                .column-img {
-                    display: flex;
-                    justify-content: center;
-                }
-
-                .column-btn {
-                    margin-top: 76px;
-                }
-
-                width: calc(50% - 60px);
-
             }
+           
         }
 
         .content-title {
