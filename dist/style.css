@@ -563,32 +563,32 @@ header .content .title-header {
   display: none;
 }
 
-.one-column {
+.banner-cta {
   background-color: #1a3cfa;
   height: auto;
   color: white;
 }
-.one-column .container .content {
+.banner-cta .container .content {
   margin-top: 80px;
   padding-top: 80px;
   display: flex;
   justify-content: center;
 }
-.one-column .container .content .column {
+.banner-cta .container .content .column {
   width: 60%;
 }
-.one-column .container .content .column .column-title {
+.banner-cta .container .content .column .column-title {
   margin-top: 20px;
 }
-.one-column .container .content .column .column-btn {
+.banner-cta .container .content .column .column-btn {
   margin-top: 40px;
   margin-bottom: 80px;
 }
-.one-column .container .content .column .row {
+.banner-cta .container .content .column .row {
   display: flex;
   justify-content: center;
 }
-.one-column .lines {
+.banner-cta .lines {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
