@@ -401,6 +401,9 @@ header .content .title-header {
   margin: 40px 0px;
   width: 50%;
 }
+.hero .container .content .hero--btn {
+  margin-top: 40px;
+}
 .hero .white-button {
   margin-top: 40px;
 }
@@ -436,7 +439,7 @@ header .content .title-header {
   justify-content: center;
 }
 .two-columns .container .content .column .column-btn {
-  margin-top: 12px;
+  margin-top: 40px;
 }
 .two-columns .container .content-title {
   margin-bottom: 80px;
@@ -494,7 +497,7 @@ header .content .title-header {
   padding: 18px 20px;
 }
 .contact-us .container .content .flex .column .column-btn .column-btn {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .contact-us .container .content .flex .column:first-child {
   display: flex;
@@ -602,7 +605,7 @@ header .content .title-header {
   justify-content: center;
 }
 .two-cards .container .content .column .column-btn {
-  margin-top: 12px;
+  margin-top: 76px;
 }
 .two-cards .container .content-title {
   margin-bottom: 80px;
