@@ -11,6 +11,8 @@
   line-height: 1.5;
   letter-spacing: 0.2px;
   text-decoration: none;
+
+  transition: background-color 0.5s, color 0.5s;
 }
 
 .btn-sign-in {
@@ -20,6 +22,7 @@
   padding: 13px 20px 13px 54px;
   font-size: 14px;
   line-height: 1.71;
+  
 
   &:before {
     content: '\e902';
@@ -43,6 +46,7 @@
   background-color: #ffffff;
   color: #1a3cfa;
 
+  
   &:after {
     content: '\e901';
     position: absolute;
