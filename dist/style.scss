@@ -1,137 +1,93 @@
 @charset "UTF-8";
-.btn {
-  position: relative;
+.hero-button {
+  width: 258px;
+  height: 60px;
   border-radius: 10px;
+  background-color: #ffffff;
   border: none;
-  padding: 18px 54px 18px 29px;
+  padding: 5px;
+  color: white;
+}
+.hero-button:hover {
+  background: none;
+  border: 1px solid white;
+}
+.hero-button:hover .button-text {
+  color: white;
+}
+
+.button-text {
   font-size: 16px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.2px;
-  text-decoration: none;
-}
-
-.btn-sign-in {
-  color: #ffffff;
-  border: solid 1px #ffffff;
-  background: none;
-  padding: 13px 20px 13px 54px;
-  font-size: 14px;
-  line-height: 1.71;
-}
-.btn-sign-in:before {
-  content: "";
-  position: absolute;
-  font-family: icomoon;
-  font-size: 14px;
-  left: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.btn-sign-in:hover {
-  background-color: #ffffff;
   color: #1a3cfa;
 }
-
-.hero-button {
-  background-color: #ffffff;
-  color: #1a3cfa;
-}
-.hero-button:after {
+.button-text:after {
   content: "";
   position: absolute;
   font-family: icomoon;
   font-size: 20px;
-  right: 29px;
+  right: -25px;
   top: 50%;
   transform: translateY(-50%);
 }
-.hero-button:hover {
+
+.clear-button {
+  width: 120px;
+  height: 50px;
   background: none;
-  border: 1px solid #ffffff;
-  color: #ffffff;
-}
-
-.btn-learn-more {
   border-radius: 10px;
-  border: solid 1px #1a3cfa;
-  padding: 18px 46.5px 18px 23.5px;
-  color: #1a3cfa;
-}
-.btn-learn-more:after {
-  font-family: icomoon;
-  content: "";
-  position: absolute;
-  font-size: 16px;
-  right: 22px;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.btn-learn-more:hover {
-  background: #1a3cfa;
-  color: #ffffff;
-}
-
-.btn-download {
   border: solid 1px #ffffff;
   color: #ffffff;
-  padding: 18px 51px 18px 26px;
 }
-.btn-download:hover {
-  background-color: #ffffff;
+.clear-button:hover {
+  background-color: white;
+}
+.clear-button:hover .clear-button-text {
   color: #1a3cfa;
-}
-.btn-download:after {
-  content: "";
-  font-family: "icomoon";
-  font-size: 16px;
-  position: absolute;
-  right: 26px;
-  top: 50%;
-  transform: translateY(-50%);
 }
 
-.btn-learn {
-  color: #1a3cfa;
-  border: solid 1px #1a3cfa;
-  padding: 18px 57px 18px 33px;
+.clear-button-text {
+  position: relative;
+  height: 24px;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.2px;
+  text-align: right;
 }
-.btn-learn:after {
+.clear-button-text:before {
+  content: "";
+  position: absolute;
   font-family: icomoon;
-  content: "";
-  position: absolute;
-  font-size: 16px;
-  right: 32px;
+  font-size: 14px;
+  left: -20px;
   top: 50%;
   transform: translateY(-50%);
 }
-.btn-learn:hover {
+
+.button-learn-more {
+  background-color: white;
+  width: 160px;
+  height: 60px;
+  border-radius: 10px;
+  border: solid 1px #1a3cfa;
+}
+.button-learn-more:hover {
   background: #1a3cfa;
-  color: #ffffff;
+}
+.button-learn-more:hover .button-learn-more-text {
+  color: white;
 }
 
-.btn-send {
-  background-color: #1a3cfa;
-  color: #ffffff;
-  padding: 18px 62px 18px 38px;
-}
-.btn-send:hover {
-  background: #ffffff;
-  border: 1px solid #1a3cfa;
-  color: #1a3cfa;
-}
-.btn-send:before {
-  position: absolute;
-  font-family: "icomoon";
-  content: "";
-  right: 37px;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.blue-btn-title {
+.button-learn-more-text {
+  font-family: CenturyGothic;
   position: relative;
   font-size: 16px;
   font-weight: bold;
@@ -139,7 +95,52 @@
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.2px;
+  text-align: center;
+  color: #1a3cfa;
+}
+.button-learn-more-text:after {
+  font-family: icomoon;
+  content: "";
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.button-download-report {
+  width: 281px;
+  height: 60px;
+  border-radius: 10px;
+  border: solid 1px #ffffff;
+  background: none;
+}
+.button-download-report:hover {
+  background-color: white;
+}
+.button-download-report:hover .text-button-download-report {
+  color: #1a3cfa;
+}
+
+.text-button-download-report {
+  font-family: CenturyGothic;
+  position: relative;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  text-align: center;
   color: #ffffff;
+}
+.text-button-download-report:before {
+  content: "";
+  font-family: "icomoon";
+  font-size: 20px;
+  position: absolute;
+  right: -20%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .slider {
@@ -163,6 +164,40 @@
   border-radius: 30px;
   color: #ffffff;
   background-color: #ffffff27;
+}
+
+.blue-btn {
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #1a3cfa;
+  border: none;
+}
+.blue-btn:hover {
+  background: white;
+  border: 1px solid #1a3cfa;
+}
+.blue-btn:hover .blue-btn-title {
+  color: #1a3cfa;
+}
+
+.blue-btn-title {
+  position: relative;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.blue-btn-title:before {
+  position: absolute;
+  font-family: "icomoon";
+  content: "";
+  right: -20%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 body {
@@ -667,4 +702,4 @@ header .content .title-header {
   margin-right: 40px;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.scss.map */
