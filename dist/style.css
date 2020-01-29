@@ -567,6 +567,9 @@ header .content .title-header {
   background-color: #1a3cfa;
   height: auto;
   color: white;
+  background-image: url("/img/bg-lines.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .banner-cta .container .content {
   margin-top: 80px;
