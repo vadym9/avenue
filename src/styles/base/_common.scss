@@ -17,9 +17,20 @@ body {
     justify-content: space-between;
 }
 
+.jc-center{
+    justify-content: center;
+}
+
 .flex {
     display: flex;
-    justify-content: space-between;
+}
+
+.fd-column{
+    flex-direction: column;
+}
+
+.ai-center{
+    align-items: center;
 }
 
 .flex-column {

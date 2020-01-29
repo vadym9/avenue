@@ -184,9 +184,20 @@ body p {
   justify-content: space-between;
 }
 
+.jc-center {
+  justify-content: center;
+}
+
 .flex {
   display: flex;
-  justify-content: space-between;
+}
+
+.fd-column {
+  flex-direction: column;
+}
+
+.ai-center {
+  align-items: center;
 }
 
 .flex-column {
@@ -517,12 +528,18 @@ header .content .title-header {
 .carousel .content .slider {
   margin-bottom: 120px;
 }
-.carousel .content .slider .slide .column-img {
-  margin: 20px 0px;
+.carousel .content .slider .slide .column-img img {
+  margin: 20px auto;
 }
 .carousel .content .slider .slide .column-desc {
-  margin: 20px 0px;
+  margin: 20px auto;
   width: calc(100% - 400px);
+  text-align: center;
+}
+.carousel .content .slider .slide .column-full-name {
+  text-align: center;
+}
+.carousel .content .slider .slide .column-job {
   text-align: center;
 }
 .carousel .content .slider .flex-column-align-center {
@@ -580,16 +597,17 @@ header .content .title-header {
 .banner-cta .container .content .column {
   width: 60%;
 }
-.banner-cta .container .content .column .column-title {
+.banner-cta .container .content .column .column-subtitle {
+  text-align: center;
+}
+.banner-cta .container .content .column .column-desc {
   margin-top: 20px;
+  text-align: center;
 }
 .banner-cta .container .content .column .column-btn {
   margin-top: 40px;
   margin-bottom: 80px;
-}
-.banner-cta .container .content .column .row {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 .banner-cta .lines {
   position: absolute;

@@ -20,12 +20,25 @@
 
 
                 .column-img {
-                    margin: 20px 0px;
+                    // margin: 20px auto;
+                    img{
+                        margin: 20px auto;
+                    }
+                    // text-align: center;
                 }
 
                 .column-desc {
-                    margin: 20px 0px;
+                    margin: 20px auto;
                     width: calc(100% - 400px);
+                    text-align: center;
+                }
+
+                .column-full-name{
+                    // margin:0px auto;
+                    text-align: center;
+                }
+
+                .column-job{
                     text-align: center;
                 }
             }

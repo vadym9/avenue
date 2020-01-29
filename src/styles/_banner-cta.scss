@@ -1,11 +1,11 @@
 .banner-cta {
-    background-color: #1a3cfa;
+    background-color: $blue;
     height: auto;
     color: white;
     background-image: url('/img/bg-lines.svg');
     background-repeat: no-repeat;
     background-position: center;
-    
+
     .container {
 
         .content {
@@ -17,19 +17,21 @@
             .column {
                 width: 60%;
 
-                .column-title {
-                    margin-top: 20px;
+                .column-subtitle{
+                    text-align: center;
                 }
 
+                // margin: 0px auto;
+                .column-desc{
+                    margin-top: 20px;
+                    text-align: center;
+                }
                 .column-btn {
                     margin-top: 40px;
                     margin-bottom: 80px;
+                    text-align:center;
                 }
 
-                .row {
-                    display: flex;
-                    justify-content: center;
-                }
             }
         }
     }
