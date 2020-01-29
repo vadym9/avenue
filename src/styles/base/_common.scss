@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    background: $bg;
+    
 
     p {
         margin: 0px;
@@ -38,6 +38,9 @@ body {
     flex-direction: column;
 }
 
+.padding-section{
+    padding: 120px;
+}
 
 .flex-column-align-center {
     display: flex;

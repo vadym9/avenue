@@ -1,7 +1,18 @@
 $containerWidth:60%;
+body{
+  background-color: $primary;
 
-body {
-  background-color: $bg;
+  .two-columns{
+    background-color: $secondary;
+  }
+
+  .two-cards{
+    background-color: $secondary;
+    .card{
+      background-color: $primary;
+    }
+  }
+
 }
 
 @font-face {

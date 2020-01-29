@@ -12,8 +12,10 @@
                 justify-content: space-between;
 
                 .column {
-                    width: 33.33%;
+                    width: calc((100% / 3) - 29.5px );
                     margin: 5px;
+
+                    position: relative;
 
                     .column-subtitle {
                         margin-top: 80px;

@@ -168,7 +168,6 @@
 
 body {
   margin: 0px;
-  background: #fafbfc;
 }
 body p {
   margin: 0px;
@@ -203,6 +202,10 @@ body p {
 .flex-column {
   display: flex;
   flex-direction: column;
+}
+
+.padding-section {
+  padding: 120px;
 }
 
 .flex-column-align-center {
@@ -258,7 +261,16 @@ body p {
 }
 
 body {
+  background-color: #ffffff;
+}
+body .two-columns {
   background-color: #fafbfc;
+}
+body .two-cards {
+  background-color: #fafbfc;
+}
+body .two-cards .card {
+  background-color: #ffffff;
 }
 
 @font-face {
@@ -542,11 +554,6 @@ header .content .title-header {
 .carousel .content .slider .slide .column-job {
   text-align: center;
 }
-.carousel .content .slider .flex-column-align-center {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 .three-columns .container .content .content-title {
   margin-bottom: 80px;
@@ -557,8 +564,9 @@ header .content .title-header {
   justify-content: space-between;
 }
 .three-columns .container .content .columns .column {
-  width: 33.33%;
+  width: calc((100% / 3) - 29.5px );
   margin: 5px;
+  position: relative;
 }
 .three-columns .container .content .columns .column .column-subtitle {
   margin-top: 80px;
@@ -615,22 +623,38 @@ header .content .title-header {
   transform: translateX(-50%);
 }
 
-.two-cards .container .content .columns .column {
-  width: calc(50% - 60px);
+.two-cards .container .content .cards .card {
+  border-radius: 20px;
+  width: calc(50% - 10px);
 }
-.two-cards .container .content .columns .column .column-subtitle {
+.two-cards .container .content .cards .card .card-img {
+  margin: 32px auto;
+  width: calc(100% - 250px);
+}
+.two-cards .container .content .cards .card .card-img img {
+  width: 100%;
+}
+.two-cards .container .content .cards .card .info {
+  padding: 40px;
+  position: relative;
+}
+.two-cards .container .content .cards .card .info:before {
+  content: "";
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: #fafbfc;
+}
+.two-cards .container .content .cards .card .info .card-subtitle {
   color: #000000;
-  margin-top: 40px;
 }
-.two-cards .container .content .columns .column .column-desc {
+.two-cards .container .content .cards .card .info .card-desc {
   margin: 20px 0px;
   color: #666666;
 }
-.two-cards .container .content .columns .column .column-img {
-  display: flex;
-  justify-content: center;
-}
-.two-cards .container .content .columns .column .column-btn {
+.two-cards .container .content .cards .card .info .card-btn {
   margin-top: 76px;
 }
 .two-cards .container .content-title {
