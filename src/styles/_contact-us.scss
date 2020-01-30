@@ -3,11 +3,14 @@
         .content {
             .two-blocks {
                 margin-top: 20px;
+
                 .block {
                     width: calc(100% - 60px);
+
                     .description {
                         margin: 20px 0px;
                     }
+
                     .fields-block {
                         .fields {
                             .fields-row {
@@ -24,9 +27,11 @@
                                 }
                             }
                         }
+
                         .message {
                             margin: 20px 0px;
                             width: 100%;
+
                             textarea {
                                 resize: none;
                                 width: calc(100% - 40px);
@@ -38,9 +43,11 @@
                             }
                         }
                     }
+
                     .btn-block {
                         margin-top: 40px;
                     }
+
                     &:first-child {
                         display: flex;
                         align-items: center;

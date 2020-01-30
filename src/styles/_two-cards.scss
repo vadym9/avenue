@@ -5,13 +5,16 @@
                 .card {
                     border-radius: 20px;
                     width: calc(50% - 10px);
+
                     .card-img {
                         margin: 32px auto;
                         text-align: center;
                     }
+
                     .info {
                         padding: 40px;
                         position: relative;
+
                         &:before {
                             content: '';
                             width: 100%;
@@ -21,13 +24,16 @@
                             left: 0px;
                             background: $light-white;
                         }
+
                         .card-subtitle {
                             color: black;
                         }
+
                         .card-desc {
                             margin: 20px 0px;
                             color: $gray;
                         }
+
                         .card-btn {
                             margin-top: 76px;
                         }
@@ -35,6 +41,7 @@
                 }
             }
         }
+
         .content-title {
             margin-bottom: 80px;
             color: $transparent-black;
