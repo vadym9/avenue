@@ -1,7 +1,5 @@
 body {
     margin: 0px;
-    background: $bg;
-
     p {
         margin: 0px;
         font-size: 18px;
@@ -13,73 +11,41 @@ body {
     }
 }
 
-.jcsb {
-    justify-content: space-between;
-}
-
-.flex {
-    display: flex;
-    justify-content: space-between;
-}
-
-.flex-column {
-    display: flex;
-    flex-direction: column;
-}
-
-
-.flex-column-align-center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .container {
     max-width: 1180px;
     padding: 0 80px;
     margin: 0px auto;
     width: 60%;
+}
 
+.jcsb {
+    justify-content: space-between;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.fd-column {
+    flex-direction: column;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.padding-section {
+    padding: 120px;
 }
 
 .section-margin {
     margin: 120px 0px;
 }
 
-.avatar-row {
-    margin-top: 40px;
-}
-
-.name-row {
-    margin-top: 20px;
-}
-
-.name {
-    font-size: 28px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.29;
-    letter-spacing: 0.2px;
-    color: #ffffff;
-}
-
-.position {
-    margin-top: 4px;
-}
-
 .blue-text {
-    color: #1a3cfa;
-}
-
-.carousel-description {
-
-    .message {
-        width: 100%;
-        resize: none;
-    }
-}
-
-.border-carousel {
-    border: 1px solid #1a3cfa;
+    color: $blue;
 }

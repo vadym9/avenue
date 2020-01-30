@@ -1,34 +1,43 @@
 .two-cards {
     .container {
         .content {
-            .column {
-                .column-subtitle {
-                    color: #000000;
-                    margin-top: 40px;
+            .cards {
+                .card {
+                    border-radius: 20px;
+                    width: calc(50% - 10px);
+                    .card-img {
+                        margin: 32px auto;
+                        text-align: center;
+                    }
+                    .info {
+                        padding: 40px;
+                        position: relative;
+                        &:before {
+                            content: '';
+                            width: 100%;
+                            height: 1px;
+                            position: absolute;
+                            top: 0px;
+                            left: 0px;
+                            background: $light-white;
+                        }
+                        .card-subtitle {
+                            color: black;
+                        }
+                        .card-desc {
+                            margin: 20px 0px;
+                            color: $gray;
+                        }
+                        .card-btn {
+                            margin-top: 76px;
+                        }
+                    }
                 }
-
-                .column-desc {
-                    margin: 20px 0px;
-                    color: #666666;
-                }
-
-                .column-img {
-                    display: flex;
-                    justify-content: center;
-                }
-
-                .column-btn {
-                    margin-top: 12px;
-                }
-
-                width: calc(50% - 60px);
-
             }
         }
-
         .content-title {
             margin-bottom: 80px;
-            color: #2d2d2d;
+            color: $transparent-black;
         }
     }
 }

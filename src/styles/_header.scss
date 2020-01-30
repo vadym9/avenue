@@ -1,5 +1,4 @@
 header {
-
     .content {
         position: absolute;
         left: 20%;
@@ -7,13 +6,11 @@ header {
         z-index: 2;
         display: flex;
         flex-direction: column;
-
         .button-block {
             height: 100px;
             display: flex;
             justify-content: space-between;
             align-items: center;
-
             .left {
                 .white-logo {
                     width: 139px;
@@ -21,16 +18,13 @@ header {
                     object-fit: contain;
                 }
             }
-
             .right {
                 display: flex;
                 flex-direction: row;
                 align-items: center;
-
                 .links {
                     margin-right: 25px;
                 }
-
                 .nav-link {
                     width: 89px;
                     height: 24px;
@@ -43,15 +37,13 @@ header {
                     font-style: normal;
                     line-height: 1.71;
                     letter-spacing: 0.2px;
-                    color: #ffffff;
-
+                    color: white;
                     &:hover {
-                        color: #7385ec;
+                        color: $light-blue;
                     }
                 }
             }
         }
-
         .title-header {
             position: relative;
             font-family: CenturyGothic;
@@ -61,21 +53,8 @@ header {
             font-style: normal;
             line-height: 1.13;
             letter-spacing: 0.2px;
-            color: #ffffff;
+            color: white;
             margin-top: 69px;
-
-            // &:before {
-            //     content: '\e901';
-            //     position: absolute;
-            //     font-family: icomoon;
-            //     font-size: 14px;
-            //     left: -20px;
-            //     top: 50%;
-            //     transform: translateY(-50%);
-            // }
         }
-
-        .description {}
-
     }
 }

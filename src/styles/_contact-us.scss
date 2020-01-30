@@ -1,82 +1,50 @@
 .contact-us {
     .container {
         .content {
-
-            .flex {
+            .two-blocks {
                 margin-top: 20px;
-
-                .column {
+                .block {
                     width: calc(100% - 60px);
-
-                    .column-desc {
+                    .description {
                         margin: 20px 0px;
                     }
-
-                    .form {
-                        .form-flex {
-
-                            display: flex;
-                            justify-content: space-between;
-
-                            .form-column {
-                                width: calc(50% - 10px);
-
-                                .column-field {
+                    .fields-block {
+                        .fields {
+                            .fields-row {
+                                .field-wrapper {
                                     .field {
-                                        // width: 100%;
-                                        width: calc(100% - 40px);
+                                        width: calc(100% - 30px);
                                         margin-top: 20px;
                                         height: 60px;
                                         border-radius: 10px;
-                                        border: solid 1px #e8e9eb;
-                                        background-color: #ffffff;
-                                        font-size: 16px;
-                                        font-weight: normal;
-                                        font-stretch: normal;
-                                        font-style: normal;
-                                        line-height: 1.5;
-                                        letter-spacing: 0.2px;
-                                        //   color: #a6a6a6;
+                                        border: solid 1px $light-gray;
+                                        background-color: white;
                                         padding: 0px 20px;
                                     }
                                 }
                             }
-
                         }
-
-                        .form-column-mesg {
+                        .message {
                             margin: 20px 0px;
                             width: 100%;
-
                             textarea {
                                 resize: none;
                                 width: calc(100% - 40px);
                                 height: 100px;
                                 border-radius: 10px;
-                                border: solid 1px #e8e9eb;
-                                background-color: #ffffff;
-                                font-size: 16px;
-                                font-weight: normal;
-                                font-stretch: normal;
-                                font-style: normal;
-                                line-height: 1.5;
-                                letter-spacing: 0.2px;
+                                border: solid 1px $light-gray;
+                                background-color: white;
                                 padding: 18px 20px;
                             }
                         }
                     }
-
-                    .column-btn {
-                        .column-btn {
-                            margin-top: 20px;
-                        }
+                    .btn-block {
+                        margin-top: 40px;
                     }
-
                     &:first-child {
                         display: flex;
                         align-items: center;
                     }
-
                 }
             }
         }
