@@ -234,8 +234,8 @@ body .two-cards .card {
 
 @font-face {
   font-family: "icomoon";
-  src: url("fonts/icomoon.eot?lfyq3x");
-  src: url("fonts/icomoon.eot?lfyq3x#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?lfyq3x") format("truetype"), url("fonts/icomoon.woff?lfyq3x") format("woff"), url("fonts/icomoon.svg?lfyq3x#icomoon") format("svg");
+  src: url("fonts/icomoon.eot?g6e8gn");
+  src: url("fonts/icomoon.eot?g6e8gn#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?g6e8gn") format("truetype"), url("fonts/icomoon.woff?g6e8gn") format("woff"), url("fonts/icomoon.svg?g6e8gn#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -253,6 +253,42 @@ body .two-cards .card {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon {
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 30px;
+  color: white;
+  background-color: #ffffff27;
+}
+.icon:hover {
+  color: #1a3cfa;
+  background-color: white;
+}
+
+.icon-cheveron-left:before {
+  content: "";
+}
+
+.icon-cheveron-right:before {
+  content: "";
+}
+
+.icon-user:before {
+  content: "";
+}
+
+.icon-facebook:before {
+  content: "";
+}
+
+.icon-twitter:before {
+  content: "";
+}
+
+.icon-linkedin2:before {
+  content: "";
 }
 
 h1 {
@@ -454,7 +490,7 @@ header .content .title-header {
   margin-top: 20px;
   height: 60px;
   border-radius: 10px;
-  border: solid 1px #666666;
+  border: solid 1px #e8e9eb;
   background-color: white;
   padding: 0px 20px;
 }
@@ -467,7 +503,7 @@ header .content .title-header {
   width: calc(100% - 40px);
   height: 100px;
   border-radius: 10px;
-  border: solid 1px #666666;
+  border: solid 1px #e8e9eb;
   background-color: white;
   padding: 18px 20px;
 }
@@ -553,17 +589,17 @@ header .content .title-header {
   display: flex;
   justify-content: center;
 }
-.banner-cta .container .content .column {
+.banner-cta .container .content .banner {
   width: 60%;
 }
-.banner-cta .container .content .column .column-subtitle {
+.banner-cta .container .content .banner .subtitle {
   text-align: center;
 }
-.banner-cta .container .content .column .column-desc {
+.banner-cta .container .content .banner .description {
   margin-top: 20px;
   text-align: center;
 }
-.banner-cta .container .content .column .column-btn {
+.banner-cta .container .content .banner .download {
   margin-top: 40px;
   margin-bottom: 80px;
   text-align: center;
@@ -645,7 +681,7 @@ header .content .title-header {
   display: flex;
   margin-top: 40px;
 }
-.footer .footer-top .container .content .cols .col .social .column-social-img {
+.footer .footer-top .container .content .cols .col .social .social-icon {
   margin-right: 20px;
 }
 .footer .footer-top .container .content .cols .col .col-links .links .link {
