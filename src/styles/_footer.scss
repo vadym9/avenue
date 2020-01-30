@@ -46,13 +46,11 @@
         color: white;
         .container {
             .content {
-                .content-two-columns {
-                    display: flex;
-                    justify-content: space-between;
-                    .content-column {
-                        .content-column-two-subcolumns {
+                .footer-row {
+                    .items {
+                        .item {
                             display: flex;
-                            .subcolumn {
+                            .subitem {
                                 &:first-child {
                                     content: "";
                                     margin-right: 40px;

@@ -691,14 +691,10 @@ header .content .title-header {
   padding: 40px 0px;
   color: white;
 }
-.footer .footer-copyright .container .content .content-two-columns {
-  display: flex;
-  justify-content: space-between;
-}
-.footer .footer-copyright .container .content .content-two-columns .content-column .content-column-two-subcolumns {
+.footer .footer-copyright .container .content .footer-row .items .item {
   display: flex;
 }
-.footer .footer-copyright .container .content .content-two-columns .content-column .content-column-two-subcolumns .subcolumn:first-child {
+.footer .footer-copyright .container .content .footer-row .items .item .subitem:first-child {
   content: "";
   margin-right: 40px;
 }
