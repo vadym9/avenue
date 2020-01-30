@@ -1,0 +1,47 @@
+.testimonials {
+    color: white;
+    background: $blue;
+    .container {
+        .content {
+            .content-title {
+                margin-top: 120px;
+                margin-bottom: 20px;
+                color: white;
+            }
+            .slider {
+                margin-bottom: 120px;
+                // &.prev{
+                //     height: 150px;
+                //     width:40px;
+                //     background:black;
+                // }
+                .slide {
+                    .client-photo {
+                        // margin: 20px auto;
+                        img {
+                            margin: 20px auto;
+                        }
+                        // text-align: center;
+                    }
+                    .description {
+                        margin: 20px auto;
+                        width: calc(100% - 400px);
+                        text-align: center;
+                    }
+                    .client-name {
+                        // margin:0px auto;
+                        text-align: center;
+                    }
+                    .position {
+                        text-align: center;
+                    }
+                }
+                // .flex-column-align-center {
+                //     display: flex;
+                //     flex-direction: column;
+                //     align-items: center;
+                // }
+            }
+        }
+    }
+}

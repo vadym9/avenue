@@ -256,7 +256,7 @@ body p {
   resize: none;
 }
 
-.border-carousel {
+.border-testimonials {
   border: 1px solid #1a3cfa;
 }
 
@@ -470,23 +470,19 @@ header .content .title-header {
   color: #2d2d2d;
 }
 
-.contact-us .container .content .columns {
+.contact-us .container .content .two-blocks {
   margin-top: 20px;
 }
-.contact-us .container .content .columns .column {
+.contact-us .container .content .two-blocks .block {
   width: calc(100% - 60px);
 }
-.contact-us .container .content .columns .column .column-desc {
+.contact-us .container .content .two-blocks .block .description {
   margin: 20px 0px;
 }
-.contact-us .container .content .columns .column .form .form-flex {
-  display: flex;
-  justify-content: space-between;
-}
-.contact-us .container .content .columns .column .form .form-flex .form-column {
+.contact-us .container .content .two-blocks .block .fields-block .fields .fields-row {
   width: calc(50% - 10px);
 }
-.contact-us .container .content .columns .column .form .form-flex .form-column .column-field .field {
+.contact-us .container .content .two-blocks .block .fields-block .fields .fields-row .field-wrapper .field {
   width: calc(100% - 40px);
   margin-top: 20px;
   height: 60px;
@@ -501,11 +497,11 @@ header .content .title-header {
   letter-spacing: 0.2px;
   padding: 0px 20px;
 }
-.contact-us .container .content .columns .column .form .form-column-mesg {
+.contact-us .container .content .two-blocks .block .fields-block .message {
   margin: 20px 0px;
   width: 100%;
 }
-.contact-us .container .content .columns .column .form .form-column-mesg textarea {
+.contact-us .container .content .two-blocks .block .fields-block .message textarea {
   resize: none;
   width: calc(100% - 40px);
   height: 100px;
@@ -520,38 +516,38 @@ header .content .title-header {
   letter-spacing: 0.2px;
   padding: 18px 20px;
 }
-.contact-us .container .content .columns .column .column-btn {
+.contact-us .container .content .two-blocks .block .btn-block {
   margin-top: 40px;
 }
-.contact-us .container .content .columns .column:first-child {
+.contact-us .container .content .two-blocks .block:first-child {
   display: flex;
   align-items: center;
 }
 
-.carousel {
+.testimonials {
   color: white;
   background: #1a3cfa;
 }
-.carousel .content .content-title {
+.testimonials .container .content .content-title {
   margin-top: 120px;
   margin-bottom: 20px;
   color: white;
 }
-.carousel .content .slider {
+.testimonials .container .content .slider {
   margin-bottom: 120px;
 }
-.carousel .content .slider .slide .column-img img {
+.testimonials .container .content .slider .slide .client-photo img {
   margin: 20px auto;
 }
-.carousel .content .slider .slide .column-desc {
+.testimonials .container .content .slider .slide .description {
   margin: 20px auto;
   width: calc(100% - 400px);
   text-align: center;
 }
-.carousel .content .slider .slide .column-full-name {
+.testimonials .container .content .slider .slide .client-name {
   text-align: center;
 }
-.carousel .content .slider .slide .column-job {
+.testimonials .container .content .slider .slide .position {
   text-align: center;
 }
 
