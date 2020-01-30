@@ -5,37 +5,29 @@
     background-image: url('/img/bg-lines.svg');
     background-repeat: no-repeat;
     background-position: center;
-
     .container {
-
         .content {
             margin-top: 80px;
             padding-top: 80px;
             display: flex;
             justify-content: center;
-
             .column {
                 width: 60%;
-
-                .column-subtitle{
+                .column-subtitle {
                     text-align: center;
                 }
-
-                // margin: 0px auto;
-                .column-desc{
+                .column-desc {
                     margin-top: 20px;
                     text-align: center;
                 }
                 .column-btn {
                     margin-top: 40px;
                     margin-bottom: 80px;
-                    text-align:center;
+                    text-align: center;
                 }
-
             }
         }
     }
-
     .lines {
         position: absolute;
         left: 50%;

@@ -1,32 +1,22 @@
 .three-columns {
     .container {
         .content {
-
             .content-title {
                 margin-bottom: 80px;
-                color: #2d2d2d;
+                color: $transparent-black;
             }
-
             .columns {
-                display: flex;
-                justify-content: space-between;
-
                 .column {
-                    width: calc((100% / 3) - 29.5px );
+                    width: calc((100% / 3) - 29.5px);
                     margin: 5px;
-
                     position: relative;
-
                     .column-subtitle {
                         margin-top: 80px;
                     }
-
                     .column-desc {
                         margin-top: 22px;
-                        color: #666666;
-
+                        color: $gray;
                     }
-
                     &:before {
                         content: '';
                         position: absolute;
@@ -34,16 +24,14 @@
                         left: calc(100% + 15px);
                         width: 1px;
                         height: 100%;
-                        background: #e8e9eb;
+                        background: $light-gray;
                     }
-
                     &:last-child {
                         &:before {
                             display: none;
                         }
                     }
                 }
-
             }
         }
     }

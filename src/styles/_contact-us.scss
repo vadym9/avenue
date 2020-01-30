@@ -11,17 +11,14 @@
                     .fields-block {
                         .fields {
                             .fields-row {
-                                // width: calc(50% - 10px);
                                 .field-wrapper {
                                     .field {
-                                        // width: 100%;
                                         width: calc(100% - 10px);
                                         margin-top: 20px;
                                         height: 60px;
                                         border-radius: 10px;
-                                        border: solid 1px #e8e9eb;
-                                        background-color: #ffffff;
-                                        //   color: #a6a6a6;
+                                        border: solid 1px $gray;
+                                        background-color: white;
                                         padding: 0px 20px;
                                     }
                                 }
@@ -35,8 +32,8 @@
                                 width: calc(100% - 40px);
                                 height: 100px;
                                 border-radius: 10px;
-                                border: solid 1px #e8e9eb;
-                                background-color: #ffffff;
+                                border: solid 1px $gray;
+                                background-color: white;
                                 padding: 18px 20px;
                             }
                         }

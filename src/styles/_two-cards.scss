@@ -10,10 +10,8 @@
                         width: calc(100% - 250px);
                         position: relative;
                         img {
-                            // height: auto;
                             width: 100%;
                         }
-                        // box-shadow: inset 0 -1px 0 0 #f0f0f0;
                     }
                     .info {
                         padding: 40px;
@@ -25,19 +23,14 @@
                             position: absolute;
                             top: 0px;
                             left: 0px;
-                            // margin: 3px 0px;
-                            // padding: 2px;
-                            // bottom:0px;
-                            // right:5px;
-                            background: #f0f0f0;
+                            background: $light-white;
                         }
                         .card-subtitle {
-                            color: #000000;
-                            // margin-top: 40px;
+                            color: black;
                         }
                         .card-desc {
                             margin: 20px 0px;
-                            color: #666666;
+                            color: $gray;
                         }
                         .card-btn {
                             margin-top: 76px;
@@ -48,7 +41,7 @@
         }
         .content-title {
             margin-bottom: 80px;
-            color: #2d2d2d;
+            color: $transparent-black;
         }
     }
 }

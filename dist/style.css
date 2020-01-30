@@ -15,8 +15,8 @@
 }
 
 .btn-sign-in {
-  color: #ffffff;
-  border: solid 1px #ffffff;
+  color: white;
+  border: solid 1px white;
   background: none;
   padding: 13px 20px 13px 54px;
   font-size: 14px;
@@ -32,12 +32,12 @@
   transform: translateY(-50%);
 }
 .btn-sign-in:hover {
-  background-color: #ffffff;
+  background-color: white;
   color: #1a3cfa;
 }
 
 .hero-button {
-  background-color: #ffffff;
+  background-color: white;
   color: #1a3cfa;
 }
 .hero-button:after {
@@ -51,8 +51,8 @@
 }
 .hero-button:hover {
   background: none;
-  border: 1px solid #ffffff;
-  color: #ffffff;
+  border: 1px solid white;
+  color: white;
 }
 
 .btn-learn-more {
@@ -72,16 +72,17 @@
 }
 .btn-learn-more:hover {
   background: #1a3cfa;
-  color: #ffffff;
+  color: white;
 }
 
 .btn-download {
-  border: solid 1px #ffffff;
-  color: #ffffff;
+  border: solid 1px white;
+  color: white;
+  background: none;
   padding: 18px 51px 18px 26px;
 }
 .btn-download:hover {
-  background-color: #ffffff;
+  background-color: white;
   color: #1a3cfa;
 }
 .btn-download:after {
@@ -110,16 +111,16 @@
 }
 .btn-learn:hover {
   background: #1a3cfa;
-  color: #ffffff;
+  color: white;
 }
 
 .btn-send {
   background-color: #1a3cfa;
-  color: #ffffff;
+  color: white;
   padding: 18px 62px 18px 38px;
 }
 .btn-send:hover {
-  background: #ffffff;
+  background: white;
   border: 1px solid #1a3cfa;
   color: #1a3cfa;
 }
@@ -140,7 +141,7 @@
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.2px;
-  color: #ffffff;
+  color: white;
 }
 
 .slider {
@@ -153,7 +154,7 @@
   font-size: 45px;
   content: "";
   border-radius: 30px;
-  color: #ffffff;
+  color: white;
   background-color: #ffffff27;
 }
 .slider .slick-next:before {
@@ -162,7 +163,7 @@
   font-size: 45px;
   content: "";
   border-radius: 30px;
-  color: #ffffff;
+  color: white;
   background-color: #ffffff27;
 }
 
@@ -177,6 +178,13 @@ body p {
   font-style: normal;
   line-height: 1.56;
   letter-spacing: 0.2px;
+}
+
+.container {
+  max-width: 1180px;
+  padding: 0 80px;
+  margin: 0px auto;
+  width: 60%;
 }
 
 .jcsb {
@@ -199,65 +207,16 @@ body p {
   align-items: center;
 }
 
-.flex-column {
-  display: flex;
-  flex-direction: column;
-}
-
 .padding-section {
   padding: 120px;
-}
-
-.flex-column-align-center {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.container {
-  max-width: 1180px;
-  padding: 0 80px;
-  margin: 0px auto;
-  width: 60%;
 }
 
 .section-margin {
   margin: 120px 0px;
 }
 
-.avatar-row {
-  margin-top: 40px;
-}
-
-.name-row {
-  margin-top: 20px;
-}
-
-.name {
-  font-size: 28px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.29;
-  letter-spacing: 0.2px;
-  color: #ffffff;
-}
-
-.position {
-  margin-top: 4px;
-}
-
 .blue-text {
   color: #1a3cfa;
-}
-
-.carousel-description .message {
-  width: 100%;
-  resize: none;
-}
-
-.border-testimonials {
-  border: 1px solid #1a3cfa;
 }
 
 body {
@@ -397,7 +356,7 @@ header .content .button-block .right .nav-link {
   font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.2px;
-  color: #ffffff;
+  color: white;
 }
 header .content .button-block .right .nav-link:hover {
   color: #7385ec;
@@ -411,9 +370,10 @@ header .content .title-header {
   font-style: normal;
   line-height: 1.13;
   letter-spacing: 0.2px;
-  color: #ffffff;
+  color: white;
   margin-top: 69px;
 }
+
 .hero {
   height: 100vh;
   position: relative;
@@ -461,7 +421,7 @@ header .content .title-header {
   width: calc(50% - 60px);
 }
 .two-columns .container .content .columns .column .column-subtitle {
-  color: #000000;
+  color: black;
   margin-top: 40px;
 }
 .two-columns .container .content .columns .column .column-desc {
@@ -494,8 +454,8 @@ header .content .title-header {
   margin-top: 20px;
   height: 60px;
   border-radius: 10px;
-  border: solid 1px #e8e9eb;
-  background-color: #ffffff;
+  border: solid 1px #666666;
+  background-color: white;
   padding: 0px 20px;
 }
 .contact-us .container .content .two-blocks .block .fields-block .message {
@@ -507,8 +467,8 @@ header .content .title-header {
   width: calc(100% - 40px);
   height: 100px;
   border-radius: 10px;
-  border: solid 1px #e8e9eb;
-  background-color: #ffffff;
+  border: solid 1px #666666;
+  background-color: white;
   padding: 18px 20px;
 }
 .contact-us .container .content .two-blocks .block .btn-block {
@@ -522,6 +482,9 @@ header .content .title-header {
 .testimonials {
   color: white;
   background: #1a3cfa;
+}
+.testimonials .container .border-testimonials {
+  border: 1px solid #1a3cfa;
 }
 .testimonials .container .content .content-title {
   margin-top: 120px;
@@ -540,6 +503,7 @@ header .content .title-header {
   text-align: center;
 }
 .testimonials .container .content .slider .slide .client-name {
+  color: white;
   text-align: center;
 }
 .testimonials .container .content .slider .slide .position {
@@ -550,12 +514,8 @@ header .content .title-header {
   margin-bottom: 80px;
   color: #2d2d2d;
 }
-.three-columns .container .content .columns {
-  display: flex;
-  justify-content: space-between;
-}
 .three-columns .container .content .columns .column {
-  width: calc((100% / 3) - 29.5px );
+  width: calc((100% / 3) - 29.5px);
   margin: 5px;
   position: relative;
 }
@@ -640,7 +600,7 @@ header .content .title-header {
   background: #f0f0f0;
 }
 .two-cards .container .content .cards .card .info .card-subtitle {
-  color: #000000;
+  color: black;
 }
 .two-cards .container .content .cards .card .info .card-desc {
   margin: 20px 0px;
@@ -656,7 +616,7 @@ header .content .title-header {
 
 .footer {
   background-color: #2d2d2d;
-  color: #ffffff;
+  color: white;
 }
 .footer a {
   color: white;
