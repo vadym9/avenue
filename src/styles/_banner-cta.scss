@@ -1,0 +1,42 @@
+.banner-cta {
+    background-color: $blue;
+    height: auto;
+    color: white;
+    background-image: url("/img/bg-lines.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .container {
+        .content {
+            margin-top: 80px;
+            padding-top: 80px;
+            display: flex;
+            justify-content: center;
+
+            .banner {
+                width: 60%;
+
+                .subtitle {
+                    text-align: center;
+                }
+
+                .description {
+                    margin-top: 20px;
+                    text-align: center;
+                }
+
+                .download {
+                    margin-top: 40px;
+                    margin-bottom: 80px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .lines {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

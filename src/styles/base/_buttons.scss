@@ -1,0 +1,171 @@
+.btn {
+    position: relative;
+    border-radius: 10px;
+    border: none;
+    padding: 18px 54px 18px 29px;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.btn-sign-in {
+    color: white;
+    border: solid 1px white;
+    background: none;
+    padding: 13px 20px 13px 54px;
+    font-size: 14px;
+    line-height: 1.71;
+    &:before {
+        content: '\e902';
+        position: absolute;
+        font-family: icomoon;
+        font-size: 14px;
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    &:hover {
+        background-color: white;
+        color: $blue;
+    }
+}
+
+.hero-button {
+    background-color: white;
+    color: $blue;
+    &:after {
+        content: '\e901';
+        position: absolute;
+        font-family: icomoon;
+        font-size: 20px;
+        right: 29px;
+        top: 50%;
+        transform: translateY(-50%)
+    }
+    &:hover {
+        background: none;
+        border: 1px solid white;
+        color: white;
+    }
+}
+
+.btn-learn-more {
+    border-radius: 10px;
+    border: solid 1px $blue;
+    padding: 18px 46.5px 18px 23.5px;
+    color: $blue;
+    &:after {
+        font-family: icomoon;
+        content: '\e901';
+        position: absolute;
+        font-size: 16px;
+        right: 22px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    &:hover {
+        background: $blue;
+        color: white;
+    }
+}
+
+.btn-download {
+    border: solid 1px white;
+    color: white;
+    background: none;
+    padding: 18px 51px 18px 26px;
+    &:hover {
+        background-color: white;
+        color: $blue;
+    }
+    &:after {
+        content: '\e901';
+        font-family: 'icomoon';
+        font-size: 16px;
+        position: absolute;
+        right: 26px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+.btn-learn {
+    color: $blue;
+    border: solid 1px $blue;
+    padding: 18px 57px 18px 33px;
+    &:after {
+        font-family: icomoon;
+        content: '\e901';
+        position: absolute;
+        font-size: 16px;
+        right: 32px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    &:hover {
+        background: $blue;
+        color: white;
+    }
+}
+
+.btn-send {
+    background-color: $blue;
+    color: white;
+    padding: 18px 62px 18px 38px;
+    &:hover {
+        background: white;
+        border: 1px solid $blue;
+        color: $blue;
+    }
+    &:before {
+        position: absolute;
+        font-family: 'icomoon';
+        content: '\e901';
+        right: 37px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+.blue-btn-title {
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
+    color: white;
+}
+
+.slider {
+    position: relative;
+    .slick-prev {
+        &:before {
+            font-family: 'icomoon';
+            position: absolute;
+            left: -100%;
+            font-size: 45px;
+            content: '\e900';
+            border-radius: 30px;
+            color: white;
+            background-color: $transparent-white;
+        }
+    }
+    .slick-next {
+        &:before {
+            font-family: 'icomoon';
+            right: -100%;
+            font-size: 45px;
+            content: '\e901';
+            border-radius: 30px;
+            color: white;
+            background-color: $transparent-white;
+        }
+    }
+}

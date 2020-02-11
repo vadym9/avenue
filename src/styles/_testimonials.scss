@@ -1,0 +1,45 @@
+.testimonials {
+    color: white;
+    background: $blue;
+
+    .container {
+        .border-testimonials {
+            border: 1px solid $blue;
+        }
+
+        .content {
+            .content-title {
+                margin-top: 120px;
+                margin-bottom: 20px;
+                color: white;
+            }
+
+            .slider {
+                margin-bottom: 120px;
+
+                .slide {
+                    .client-photo {
+                        img {
+                            margin: 20px auto;
+                        }
+                    }
+
+                    .description {
+                        margin: 20px auto;
+                        width: calc(100% - 400px);
+                        text-align: center;
+                    }
+
+                    .client-name {
+                        color: white;
+                        text-align: center;
+                    }
+
+                    .position {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}

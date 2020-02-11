@@ -1,0 +1,35 @@
+.two-columns {
+    .container {
+        .content {
+            .columns {
+                .column {
+                    .column-subtitle {
+                        color: black;
+                        margin-top: 40px;
+                    }
+
+                    .column-desc {
+                        margin: 20px 0px;
+                        color: $gray;
+                    }
+
+                    .column-img {
+                        display: flex;
+                        justify-content: center;
+                    }
+
+                    .column-btn {
+                        margin-top: 40px;
+                    }
+
+                    width: calc(50% - 60px);
+                }
+            }
+        }
+
+        .content-title {
+            margin-bottom: 80px;
+            color: $transparent-black;
+        }
+    }
+}

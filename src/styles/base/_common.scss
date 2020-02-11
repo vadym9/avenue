@@ -1,0 +1,51 @@
+body {
+    margin: 0px;
+    p {
+        margin: 0px;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.56;
+        letter-spacing: 0.2px;
+    }
+}
+
+.container {
+    max-width: 1180px;
+    padding: 0 80px;
+    margin: 0px auto;
+    width: 60%;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.fd-column {
+    flex-direction: column;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.padding-section {
+    padding: 120px;
+}
+
+.section-margin {
+    margin: 120px 0px;
+}
+
+.blue-text {
+    color: $blue;
+}
